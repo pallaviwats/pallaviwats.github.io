@@ -1,8 +1,8 @@
 ---
 permalink: /teaching/
-title: "Teaching"
+title: ""
 ---
 
-Economics of Labor: Spring 2024 & Spring 2025
+### Economics of Labor: Spring 2024 & Spring 2025
 
-Law and Economics: Fall 2024
+### Law and Economics: Fall 2024
