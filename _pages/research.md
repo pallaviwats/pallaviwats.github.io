@@ -3,5 +3,5 @@ permalink: /research/
 title: "Research"
 ---
 
-*Research page placeholder*
+**Outsourcing Talent: Inside the High-Skilled Immigration Market**
 
