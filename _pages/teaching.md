@@ -4,6 +4,9 @@ title: "Teaching"
 ---
 ### Graduate TA, University of Virginia, Department of Economics
 
+###
+
+
 Economics of Labor: Spring 2024 & Spring 2025 
 
 
