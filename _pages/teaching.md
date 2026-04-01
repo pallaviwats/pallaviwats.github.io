@@ -5,7 +5,6 @@ title: "Teaching"
 ### Graduate TA, University of Virginia, Department of Economics
 
 <br>
-
 Economics of Labor: Spring 2024, Spring 2025 & Spring 2026
 
 Law & Economics of Big Risks: Fall 2025
