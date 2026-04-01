@@ -11,4 +11,6 @@ twitter-color: "#55acee"
 github-color: "#171516"
 blogger-color: "#F37100"
 ---
-I am a **fourth-year PhD Student in Economics** at [University of Virginia](https://economics.virginia.edu). My research interests are in labor economics and indusrtrial organization. 
+I am a Ph.D. candidate in Economics at the [University of Virginia](https://economics.virginia.edu). My research interests are in labor economics and empirical industrial organization. I am particularly interested in high-skill immigration and automation. 
+​
+​
