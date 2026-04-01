@@ -2,8 +2,6 @@
 permalink: /teaching/
 title: "Teaching"
 ---
-### Guest Lecturer, University of Virginia, ECON 8180 (Grad.\ Industrial Organization), Spring 2026
-
 ### Graduate TA, University of Virginia, Department of Economics
 
 <br>
@@ -15,3 +13,4 @@ Racial and Socioeconomic Disparities, Market Failures, and The Law: Fall 2024
 
 Principles of Economics: Microeconomics, Fall 2023
 
+### Guest Lecturer, Graduate Industrial Organization, University of Virginia, Spring 2026
