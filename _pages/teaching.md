@@ -2,11 +2,16 @@
 permalink: /teaching/
 title: "Teaching"
 ---
+### Guest Lecturer, University of Virginia, ECON 8180 (Grad.\ Industrial Organization), Spring 2026
+
 ### Graduate TA, University of Virginia, Department of Economics
 
 <br>
-Economics of Labor: Spring 2024 & Spring 2025
+Economics of Labor: Spring 2024, Spring 2025 & Spring 2026
+
+Law & Economics of Big Risks: Fall 2025
 
 Racial and Socioeconomic Disparities, Market Failures, and The Law: Fall 2024
 
 Principles of Economics: Microeconomics, Fall 2023
+
