@@ -4,8 +4,7 @@ title: "Research"
 ---
 
 <style>
-.breadcrumbs,
-.page__title {
+.breadcrumbs {
   display: none !important;
 }
 
@@ -29,19 +28,29 @@ title: "Research"
   font-size: 1.15rem;
   font-weight: 700;
   line-height: 1.25;
+  color: #4aaec4;
+  text-decoration: underline;
 }
 
-.paper-arrow {
-  font-size: 1.25rem;
-  color: #777;
+.paper-chevron {
+  width: 0.55rem;
+  height: 0.55rem;
+  border-right: 2px solid #777;
+  border-bottom: 2px solid #777;
+  transform: rotate(45deg);
   margin-left: 1rem;
+  flex-shrink: 0;
+}
+
+.paper-chevron.open {
+  transform: rotate(225deg);
 }
 
 .paper-awards {
-  font-size: 0.78rem;
+  font-size: 0.68rem;
   font-style: italic;
-  line-height: 1.35;
-  margin-top: 0.35rem;
+  line-height: 1.3;
+  margin-top: 0.25rem;
   margin-bottom: 0.9rem;
 }
 
@@ -53,13 +62,13 @@ title: "Research"
 
 <div class="research-paper">
 
-<button class="paper-button" onclick="var x=document.getElementById('abstract1'); var a=document.getElementById('arrow1'); if (x.style.display === 'none' || x.style.display === '') { x.style.display = 'block'; a.innerHTML = '&#8963;'; } else { x.style.display = 'none'; a.innerHTML = '&#8964;'; }">
+<button class="paper-button" onclick="var x=document.getElementById('abstract1'); var a=document.getElementById('arrow1'); if (x.style.display === 'none' || x.style.display === '') { x.style.display = 'block'; a.classList.add('open'); } else { x.style.display = 'none'; a.classList.remove('open'); }">
 <span class="paper-title">Outsourcing Talent: Inside the High-Skilled Immigration Market</span>
-<span id="arrow1" class="paper-arrow">⌄</span>
+<span id="arrow1" class="paper-chevron"></span>
 </button>
 
 <p class="paper-awards">
-Snavely Prize for Best Dissertation Proposal, UVA (2025); Snavely Prize for Best Second Year Paper, UVA (2024)
+Snavely Prize for Best Dissertation Proposal (2025); Snavely Prize for Best Second Year Paper (2024)
 </p>
 
 <div id="abstract1" class="paper-abstract">
@@ -72,9 +81,9 @@ U.S. firms hire high-skilled immigrants through the H-1B visa program, which all
 
 <div class="research-paper">
 
-<button class="paper-button" onclick="var x=document.getElementById('abstract2'); var a=document.getElementById('arrow2'); if (x.style.display === 'none' || x.style.display === '') { x.style.display = 'block'; a.innerHTML = '&#8963;'; } else { x.style.display = 'none'; a.innerHTML = '&#8964;'; }">
+<button class="paper-button" onclick="var x=document.getElementById('abstract2'); var a=document.getElementById('arrow2'); if (x.style.display === 'none' || x.style.display === '') { x.style.display = 'block'; a.classList.add('open'); } else { x.style.display = 'none'; a.classList.remove('open'); }">
 <span class="paper-title">Who Benefits from High-Skilled Immigration Restrictions?</span>
-<span id="arrow2" class="paper-arrow">⌄</span>
+<span id="arrow2" class="paper-chevron"></span>
 </button>
 
 <div id="abstract2" class="paper-abstract">
