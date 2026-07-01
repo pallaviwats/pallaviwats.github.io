@@ -9,7 +9,7 @@ title: "Research"
 }
 
 .research-paper {
-  margin-bottom: 2.25rem;
+  margin-bottom: 2.1rem;
 }
 
 .paper-button {
@@ -20,21 +20,25 @@ title: "Research"
   cursor: pointer;
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
   text-align: left;
 }
 
 .paper-title {
-  font-size: 1.15rem;
+  font-size: 1.05rem;
   font-weight: 700;
   line-height: 1.25;
-  color: #4aaec4;
+  color: #2f7f99;
+  text-decoration: none;
+}
+
+.paper-title:hover {
   text-decoration: underline;
 }
 
 .paper-chevron {
-  width: 0.55rem;
-  height: 0.55rem;
+  width: 0.45rem;
+  height: 0.45rem;
   border-right: 2px solid #777;
   border-bottom: 2px solid #777;
   transform: rotate(45deg);
@@ -47,11 +51,12 @@ title: "Research"
 }
 
 .paper-awards {
-  font-size: 0.68rem;
+  font-size: 0.56rem;
   font-style: italic;
-  line-height: 1.3;
-  margin-top: 0.25rem;
-  margin-bottom: 0.9rem;
+  line-height: 1.25;
+  margin-top: 0.22rem;
+  margin-bottom: 0.85rem;
+  color: #666;
 }
 
 .paper-abstract {
