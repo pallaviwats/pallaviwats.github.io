@@ -36,7 +36,7 @@ title: "Research"
 }
 
 .paper-awards {
-  font-size: 0.36rem;
+  font-size: 0.25rem;
   font-style: italic;
   line-height: 1.15;
   margin-top: 0.15rem;
