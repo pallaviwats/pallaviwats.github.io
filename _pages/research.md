@@ -36,11 +36,11 @@ title: "Research"
 }
 
 .paper-awards {
-  font-size: 0.25rem;
+  font-size: 0.2rem;
   font-style: italic;
   line-height: 1.15;
-  margin-top: 0.15rem;
-  margin-bottom: 0.8rem;
+  margin-top: 0.1rem;
+  margin-bottom: 0.7rem;
   color: #666;
   white-space: nowrap;
 }
