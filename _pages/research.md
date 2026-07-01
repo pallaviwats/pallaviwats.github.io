@@ -36,11 +36,11 @@ title: "Research"
 }
 
 .paper-awards {
-  font-size: 0.48rem;
+  font-size: 0.36rem;
   font-style: italic;
-  line-height: 1.2;
-  margin-top: 0.2rem;
-  margin-bottom: 0.9rem;
+  line-height: 1.15;
+  margin-top: 0.15rem;
+  margin-bottom: 0.8rem;
   color: #666;
   white-space: nowrap;
 }
@@ -65,7 +65,7 @@ title: "Research"
 <div class="paper-title">Outsourcing Talent: Inside the High-Skilled Immigration Market</div>
 
 <p class="paper-awards">
-Snavely Prize for Best Dissertation Proposal (2025); Snavely Prize for Best Second Year Paper, UVA (2024)
+Snavely Prize for Best Dissertation Proposal (2025), Snavely Prize for Best Second Year Paper (2024)
 </p>
 
 <div class="paper-abstract">
