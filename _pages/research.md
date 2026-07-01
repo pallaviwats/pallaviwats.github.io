@@ -88,8 +88,8 @@ title: "Research"
 </button>
 
 <p class="paper-awards">
-Snavely Prize for Best Dissertation Proposal, UVA (2025)<br>
-Snavely Prize for Best Second Year Paper, UVA (2024)
+Snavely Prize for Best Dissertation Proposal (2025)<br>
+Snavely Prize for Best Second Year Paper UVA (2024)
 </p>
 
 <div id="abstract1" class="paper-abstract">
