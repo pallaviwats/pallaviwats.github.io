@@ -15,10 +15,10 @@ title: "Research"
 .research-section-title {
   font-size: 1.3rem;
   font-weight: 700;
-  color: #3d4144;
+  color: #26343f;
   margin-bottom: 1.4rem;
   padding-bottom: 0.9rem;
-  border-bottom: 1px solid #e6e6e6;
+  border-bottom: 2px solid #d9e7e5;
 }
 
 .research-paper {
@@ -30,19 +30,25 @@ title: "Research"
   font-size: 1.1rem;
   font-weight: 700;
   line-height: 1.25;
-  color: #4aaec4;
-  text-decoration: underline;
+  color: #0f6f7d;
+  text-decoration: none;
   margin-bottom: 0.25rem;
 }
 
 .paper-awards {
-  font-size: 0.2rem;
-  font-style: italic;
-  line-height: 1.15;
-  margin-top: 0.1rem;
-  margin-bottom: 0.7rem;
-  color: #666;
-  white-space: nowrap;
+  list-style: none;
+  margin: 0.5rem 0 0.9rem;
+  padding: 0.55rem 0.75rem 0.55rem 0.85rem;
+  border-left: 3px solid #b8793f;
+  background: #fbf8f3;
+  color: #5f4633;
+  font-size: 0.78rem;
+  line-height: 1.45;
+  overflow-wrap: anywhere;
+}
+
+.paper-awards li + li {
+  margin-top: 0.25rem;
 }
 
 .paper-abstract {
@@ -54,6 +60,36 @@ title: "Research"
   text-align: justify;
   text-justify: inter-word;
 }
+
+@media (max-width: 600px) {
+  .research-section {
+    margin-top: 2rem;
+  }
+
+  .research-section-title {
+    font-size: 1.15rem;
+    margin-bottom: 1.1rem;
+  }
+
+  .research-paper {
+    margin-top: 2rem;
+    margin-bottom: 2.4rem;
+  }
+
+  .paper-title {
+    font-size: 1rem;
+    line-height: 1.35;
+  }
+
+  .paper-awards {
+    font-size: 0.76rem;
+  }
+
+  .paper-abstract {
+    font-size: 0.76rem;
+    text-align: left;
+  }
+}
 </style>
 
 <div class="research-section">
@@ -64,9 +100,10 @@ title: "Research"
 
 <div class="paper-title">Outsourcing Talent: Inside the High-Skilled Immigration Market</div>
 
-<p class="paper-awards">
-Snavely Prize for Best Dissertation Proposal (2025), Snavely Prize for Best Second Year Paper (2024)
-</p>
+<ul class="paper-awards">
+<li>Snavely Prize for Best Dissertation Proposal (2025)</li>
+<li>Snavely Prize for Best Second Year Paper (2024)</li>
+</ul>
 
 <div class="paper-abstract">
 
