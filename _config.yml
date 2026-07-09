@@ -9,7 +9,7 @@
 locale                   : "en-US"
 title                    : "Pallavi Wats"
 title_separator          : "-"
-description              : &description "PhD Student in Economics"
+description              : &description "PhD Candidate in Economics"
 url                      : https://pallaviwats.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "pallaviwats/pallaviwats.github.io"
@@ -83,7 +83,7 @@ analytics:
 author:
   name             : "Pallavi Wats"
   avatar           : "pal.jpg"
-  bio              : "PhD Student in Economics"
+  bio              : "PhD Candidate in Economics"
   employer         : "University of Virginia"
   location         : "Charlottesville, VA"
   email            : "watspallavi@gmail.com"
