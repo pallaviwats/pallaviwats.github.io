@@ -5,16 +5,75 @@ title: "Research"
 ---
 
 <style>
-.research-page,
-.research-page * {
+.research-shell,
+.research-shell * {
   box-sizing: border-box;
+}
+
+.research-shell {
+  width: 100%;
+  max-width: 1120px;
+  margin: 2.8rem auto 4rem;
+  padding: 0 1.25rem;
+  display: grid;
+  grid-template-columns: 220px minmax(0, 760px);
+  gap: 3.5rem;
+  align-items: start;
+}
+
+.research-profile {
+  color: #25323b;
+}
+
+.research-profile-avatar {
+  display: block;
+  width: 175px;
+  height: 175px;
+  margin-bottom: 1rem;
+  padding: 5px;
+  border: 1px solid #dfe9e8;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.research-profile-name {
+  margin: 0 0 0.45rem;
+  color: #303941;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.research-profile-bio {
+  margin: 0 0 1.2rem;
+  color: #4d5962;
+  font-size: 0.76rem;
+  line-height: 1.4;
+}
+
+.research-profile-links {
+  margin: 0;
+  padding: 0;
+  color: #4d5962;
+  font-size: 0.72rem;
+  font-weight: 600;
+  line-height: 1.8;
+  list-style: none;
+}
+
+.research-profile-links a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.research-profile-links i {
+  margin-right: 0.35rem;
 }
 
 .research-page {
   width: 100%;
   max-width: 760px;
-  margin: 2.8rem auto 4rem;
-  padding: 0 1.25rem;
+  min-width: 0;
   color: #25323b;
 }
 
@@ -137,13 +196,23 @@ title: "Research"
     flex: 0 0 auto;
   }
 
-  .research-page {
+  .research-shell {
     width: calc(100vw - 2rem);
     width: calc(100dvw - 2rem);
     max-width: 680px;
     margin: 1.4rem auto 3rem;
     padding: 0;
+    display: block;
     overflow-wrap: break-word;
+  }
+
+  .research-profile {
+    display: none;
+  }
+
+  .research-page {
+    width: 100%;
+    max-width: 100%;
   }
 
   .research-page-title {
@@ -178,7 +247,7 @@ title: "Research"
 }
 
 @media (max-width: 600px) {
-  .research-page {
+  .research-shell {
     width: min(350px, calc(100vw - 2rem));
     width: min(350px, calc(100dvw - 2rem));
     max-width: min(350px, calc(100vw - 2rem));
@@ -198,31 +267,46 @@ title: "Research"
 }
 </style>
 
-<main class="research-page">
-  <h1 class="research-page-title">Research</h1>
+<div class="research-shell">
+  <aside class="research-profile" aria-label="Author profile">
+    <img class="research-profile-avatar" src="/images/{{ site.author.avatar }}" alt="{{ site.author.name }}">
+    <div class="research-profile-name">{{ site.author.name }}</div>
+    <div class="research-profile-bio">{{ site.author.bio }}</div>
 
-  <section aria-labelledby="working-papers">
-    <h2 id="working-papers" class="research-section-title">Working Papers</h2>
+    <ul class="research-profile-links">
+      <li><i class="fa fa-fw fa-map-marker" style="color: #D03F33;" aria-hidden="true"></i>{{ site.author.location }}</li>
+      <li><i class="fa fa-fw fa-school" aria-hidden="true"></i>{{ site.author.employer }}</li>
+      <li><a href="mailto:{{ site.author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i>Email</a></li>
+      <li><a href="https://github.com/{{ site.author.github }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i>Github</a></li>
+    </ul>
+  </aside>
 
-    <article class="research-paper">
-      <div class="paper-title">Outsourcing Talent: Inside the High-Skilled Immigration Market</div>
+  <main class="research-page">
+    <h1 class="research-page-title">Research</h1>
 
-      <ul class="paper-awards">
-        <li>Snavely Prize for Best Dissertation Proposal (2025)</li>
-        <li>Snavely Prize for Best Second Year Paper (2024)</li>
-      </ul>
+    <section aria-labelledby="working-papers">
+      <h2 id="working-papers" class="research-section-title">Working Papers</h2>
 
-      <div class="paper-abstract">
-        U.S. firms hire high-skilled immigrants through the H-1B visa program, which allocates a fixed number of visas each year by lottery. When firms lose access to direct H-1B hiring, they may shift labor demand toward third-party staffing intermediaries. I study this response by linking firm-level lottery outcomes to detailed visa application data. I show that firms constrained by the lottery reallocate labor demand toward outsourcing firms. I then develop a structural model in which workers sort across employers, firms hire in stages, and intermediaries allocate labor across client firms. I use the model to study how alternative visa and intermediary regulations redistribute gains and losses across foreign-born workers, native workers, outsourcing firms, and U.S. firms.
-      </div>
-    </article>
+      <article class="research-paper">
+        <div class="paper-title">Outsourcing Talent: Inside the High-Skilled Immigration Market</div>
 
-    <article class="research-paper">
-      <div class="paper-title">Who Benefits from High-Skilled Immigration Restrictions?</div>
+        <ul class="paper-awards">
+          <li>Snavely Prize for Best Dissertation Proposal (2025)</li>
+          <li>Snavely Prize for Best Second Year Paper (2024)</li>
+        </ul>
 
-      <div class="paper-abstract">
-        Immigration restrictions often aim to raise domestic employment by limiting foreign supply. But as firms grow more global, they have another margin of adjustment: hiring abroad. This paper studies that margin using the 2017 tightening of U.S. visas for high-skilled foreign workers. I construct firm-level employment by country and month from LinkedIn work histories, classifying workers as domestic or foreign by education and work location. I also link these data to USCIS visa petition microdata and job postings. I estimate a Bartik difference-in-differences design that compares changes in the composition of employees for firms that are more and less exposed to the policy change. Firm exposure combines pre-policy H-1B occupation mix with occupation-level increases in denial rates, built as a leave-one-out shift-share. More exposed firms show no measurable increase in domestic employment but expand employment at their foreign affiliates, which are concentrated in India: moving from the 10th to the 90th percentile of exposure raises India-based employment by about 5.7 pp, or 38% of the pre-policy mean. The results suggest that firms can blunt the domestic effects of immigration restrictions by reallocating work to foreign locations within the firm.
-      </div>
-    </article>
-  </section>
-</main>
+        <div class="paper-abstract">
+          U.S. firms hire high-skilled immigrants through the H-1B visa program, which allocates a fixed number of visas each year by lottery. When firms lose access to direct H-1B hiring, they may shift labor demand toward third-party staffing intermediaries. I study this response by linking firm-level lottery outcomes to detailed visa application data. I show that firms constrained by the lottery reallocate labor demand toward outsourcing firms. I then develop a structural model in which workers sort across employers, firms hire in stages, and intermediaries allocate labor across client firms. I use the model to study how alternative visa and intermediary regulations redistribute gains and losses across foreign-born workers, native workers, outsourcing firms, and U.S. firms.
+        </div>
+      </article>
+
+      <article class="research-paper">
+        <div class="paper-title">Who Benefits from High-Skilled Immigration Restrictions?</div>
+
+        <div class="paper-abstract">
+          Immigration restrictions often aim to raise domestic employment by limiting foreign supply. But as firms grow more global, they have another margin of adjustment: hiring abroad. This paper studies that margin using the 2017 tightening of U.S. visas for high-skilled foreign workers. I construct firm-level employment by country and month from LinkedIn work histories, classifying workers as domestic or foreign by education and work location. I also link these data to USCIS visa petition microdata and job postings. I estimate a Bartik difference-in-differences design that compares changes in the composition of employees for firms that are more and less exposed to the policy change. Firm exposure combines pre-policy H-1B occupation mix with occupation-level increases in denial rates, built as a leave-one-out shift-share. More exposed firms show no measurable increase in domestic employment but expand employment at their foreign affiliates, which are concentrated in India: moving from the 10th to the 90th percentile of exposure raises India-based employment by about 5.7 pp, or 38% of the pre-policy mean. The results suggest that firms can blunt the domestic effects of immigration restrictions by reallocating work to foreign locations within the firm.
+        </div>
+      </article>
+    </section>
+  </main>
+</div>
