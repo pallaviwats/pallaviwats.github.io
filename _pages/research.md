@@ -70,7 +70,10 @@ title: "Research"
   color: #4d5962;
   font-size: 0.78rem;
   line-height: 1.58;
-  text-align: left;
+  text-align: justify;
+  text-justify: inter-word;
+  -webkit-hyphens: auto;
+  hyphens: auto;
 }
 
 @media (max-width: 768px) {
