@@ -112,7 +112,7 @@ title: "Research"
 
 .paper-title .paper-coauthors {
   display: inline;
-  color: inherit;
+  color: #8a735f;
   font-size: 0.9em;
   font-weight: 500;
 }
@@ -121,7 +121,8 @@ title: "Research"
 .paper-title .paper-coauthors a:hover,
 .paper-title .paper-coauthors a:visited {
   color: inherit !important;
-  text-decoration: none !important;
+  text-decoration: underline !important;
+  text-underline-offset: 0.12em;
   border-bottom: 0 !important;
   box-shadow: none !important;
   background-image: none !important;
