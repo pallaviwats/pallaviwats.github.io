@@ -316,16 +316,16 @@ title: "Research"
   </article>
 
   <article class="research-paper research-paper-compact">
-    <div class="paper-title">Impact of Automation on Developing Countries</div>
-    <div class="paper-coauthors">
-      with <a href="https://gauravchiplunkar.com">Gaurav Chiplunkar</a>
-    </div>
+    <div class="paper-title">
+  Impact of Automation on Developing Countries
+  <span class="paper-coauthors">(with <a href="https://gauravchiplunkar.com">Gaurav Chiplunkar</a>)</span>
+</div>
   </article>
 
   <article class="research-paper research-paper-compact">
-    <div class="paper-title">Exposure, Adoption, and Impact of Frontier AI on Labor Market Responses of U.S. Firms</div>
-    <div class="paper-coauthors">
-      with <a href="https://gauravchiplunkar.com">Gaurav Chiplunkar</a>
-    </div>
+    <div class="paper-title">
+  Exposure, Adoption, and Impact of Frontier AI on Labor Market Responses of U.S. Firms
+  <span class="paper-coauthors">(with <a href="https://gauravchiplunkar.com">Gaurav Chiplunkar</a>)</span>
+</div>
   </article>
 </section>
