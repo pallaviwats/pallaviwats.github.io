@@ -246,10 +246,15 @@ title: "Research"
   }
 
   .paper-coauthors {
-  color: #8a7a6a;
-  font-size: 0.9rem;
+  display: inline;
+  color: #0b7285;
+  font-size: 0.9em;
   font-weight: 500;
-  margin-top: 0.25rem;
+}
+
+.paper-coauthors a {
+  color: #0b7285;
+  text-decoration: none;
 }
 }
 
