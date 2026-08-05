@@ -117,10 +117,14 @@ title: "Research"
   font-weight: 500;
 }
 
+.paper-title .coauthor-with {
+  color: #4d5962;
+}
+
 .paper-title .paper-coauthors a,
 .paper-title .paper-coauthors a:hover,
 .paper-title .paper-coauthors a:visited {
-  color: inherit !important;
+  color: #8a735f !important;
   text-decoration: underline !important;
   text-underline-offset: 0.12em;
   border-bottom: 0 !important;
@@ -329,14 +333,14 @@ title: "Research"
       <article class="research-paper research-paper-compact">
         <div class="paper-title">
           Impact of Automation on Developing Countries
-          <span class="paper-coauthors">(with <a href="https://gauravchiplunkar.com">Gaurav Chiplunkar</a>)</span>
+          <span class="paper-coauthors">(<span class="coauthor-with">with</span> <a href="https://gauravchiplunkar.com">Gaurav Chiplunkar</a>)</span>
         </div>
       </article>
 
       <article class="research-paper research-paper-compact">
         <div class="paper-title">
           Exposure, Adoption, and Impact of Frontier AI on Labor Market Responses of U.S. Firms
-          <span class="paper-coauthors">(with <a href="https://gauravchiplunkar.com">Gaurav Chiplunkar</a>)</span>
+          <span class="paper-coauthors">(<span class="coauthor-with">with</span> <a href="https://gauravchiplunkar.com">Gaurav Chiplunkar</a>)</span>
         </div>
       </article>
     </section>
