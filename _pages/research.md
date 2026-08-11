@@ -329,20 +329,6 @@ title: "Research"
           Immigration restrictions often aim to raise domestic employment by limiting foreign supply. But as firms grow more global, they have another margin of adjustment: hiring abroad. This paper studies that margin using the 2017 tightening of U.S. visas for high-skilled foreign workers. I construct firm-level employment by country and month from LinkedIn work histories, classifying workers as domestic or foreign by education and work location. I also link these data to USCIS visa petition microdata and job postings. I estimate a Bartik difference-in-differences design that compares changes in the composition of employees for firms that are more and less exposed to the policy change. Firm exposure combines pre-policy H-1B occupation mix with occupation-level increases in denial rates, built as a leave-one-out shift-share. More exposed firms show no measurable increase in domestic employment but expand employment at their foreign affiliates, which are concentrated in India: moving from the 10th to the 90th percentile of exposure raises India-based employment by about 5.7 pp, or 38% of the pre-policy mean. The results suggest that firms can blunt the domestic effects of immigration restrictions by reallocating work to foreign locations within the firm.
         </div>
       </article>
-
-      <article class="research-paper research-paper-compact">
-        <div class="paper-title">
-          Impact of Automation on Developing Countries
-          <span class="paper-coauthors">(<span class="coauthor-with">with</span> <a href="https://gauravchiplunkar.com">Gaurav Chiplunkar</a>)</span>
-        </div>
-      </article>
-
-      <article class="research-paper research-paper-compact">
-        <div class="paper-title">
-          Exposure, Adoption, and Impact of Frontier AI on Labor Market Responses of U.S. Firms
-          <span class="paper-coauthors">(<span class="coauthor-with">with</span> <a href="https://gauravchiplunkar.com">Gaurav Chiplunkar</a>)</span>
-        </div>
-      </article>
     </section>
   </main>
 </div>
