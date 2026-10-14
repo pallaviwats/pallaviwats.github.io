@@ -162,7 +162,7 @@ html {
 
 .academic-intro {
   display: grid;
-  max-width: 800px;
+  max-width: 900px;
   margin-inline: auto;
   grid-template-columns: 240px minmax(0, 1fr);
   align-items: start;
@@ -223,7 +223,7 @@ html {
 }
 
 .academic-bio {
-  max-width: 520px;
+  max-width: 620px;
   font-size: 19px;
   text-align: justify;
   text-wrap: pretty;
