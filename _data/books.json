@@ -64,6 +64,14 @@
     "metadata_url": "https://www.penguin.co.in/book/mother-mary-comes-to-me/"
   },
   {
+    "id": "the-book-of-laughter-and-forgetting",
+    "title": "The Book of Laughter and Forgetting",
+    "author": "Milan Kundera",
+    "category": "Fiction",
+    "cover_url": "https://books.google.com/books/content?id=J1mVimA87lYC&printsec=frontcover&img=1&zoom=1",
+    "metadata_url": "https://books.google.com/books/about/The_Book_of_Laughter_and_Forgetting.html?id=J1mVimA87lYC"
+  },
+  {
     "id": "white-nights",
     "title": "White Nights",
     "author": "Fyodor Dostoevsky",
@@ -238,6 +246,14 @@
     "metadata_url": "https://www.penguinrandomhouse.com/books/306169/last-sacrifice-by-richelle-mead/"
   },
   {
+    "id": "norwegian-wood",
+    "title": "Norwegian Wood",
+    "author": "Haruki Murakami",
+    "category": "Fiction",
+    "cover_url": "https://images2.penguinrandomhouse.com/cover/9780375704024",
+    "metadata_url": "https://www.penguinrandomhouse.com/books/118720/norwegian-wood-by-haruki-murakami/"
+  },
+  {
     "id": "second-place",
     "title": "Second Place",
     "author": "Rachel Cusk",
@@ -278,11 +294,107 @@
     "metadata_url": "https://www.penguinrandomhouse.com/books/314819/em-and-the-big-hoom-by-jerry-pinto/"
   },
   {
+    "id": "war-and-war",
+    "title": "War & War",
+    "author": "László Krasznahorkai",
+    "category": "Fiction",
+    "cover_url": "https://cdn.sanity.io/images/p34gzxcg/production/ca0b7817c68d2485e62a37630262f1f30299732b-1575x2400.jpg?auto=format&w=1000",
+    "metadata_url": "https://www.ndbooks.com/book/war-and-war/"
+  },
+  {
+    "id": "the-rainbow",
+    "title": "The Rainbow",
+    "author": "Yasunari Kawabata",
+    "category": "Fiction",
+    "cover_url": "https://images4.penguinrandomhouse.com/cover/9780593314920",
+    "metadata_url": "https://www.penguinrandomhouse.com/books/678116/the-rainbow-by-yasunari-kawabata/"
+  },
+  {
+    "id": "immortality",
+    "title": "Immortality",
+    "author": "Milan Kundera",
+    "category": "Fiction",
+    "cover_url": "https://books.google.com/books/content?id=5fEOD1rUMmcC&printsec=frontcover&img=1&zoom=1&edge=curl",
+    "metadata_url": "https://books.google.com/books/about/Immortality.html?id=5fEOD1rUMmcC"
+  },
+  {
     "id": "the-pastor",
     "title": "The Pastor",
     "author": "Hanne Ørstavik",
     "category": "Fiction",
     "cover_url": "https://archipelagobooks.org/wp-content/uploads/2021/02/9781953861085.jpg",
     "metadata_url": "https://archipelagobooks.org/book/the-pastor/"
+  },
+  {
+    "id": "the-wind-up-bird-chronicle",
+    "title": "The Wind-Up Bird Chronicle",
+    "author": "Haruki Murakami",
+    "category": "Fiction",
+    "cover_url": "https://images4.penguinrandomhouse.com/cover/9780679775430",
+    "metadata_url": "https://www.penguinrandomhouse.com/books/118727/the-wind-up-bird-chronicle-by-haruki-murakami/"
+  },
+  {
+    "id": "the-second-sex",
+    "title": "The Second Sex",
+    "author": "Simone de Beauvoir",
+    "category": "Nonfiction",
+    "cover_url": "https://images2.penguinrandomhouse.com/cover/9780307277787",
+    "metadata_url": "https://www.penguinrandomhouse.com/books/10379/the-second-sex-by-simone-de-beauvoir-newly-translated-by-constance-borde-and-sheila-malovany/9780307277787/"
+  },
+  {
+    "id": "frankenstein",
+    "title": "Frankenstein",
+    "author": "Mary Shelley",
+    "category": "Fiction",
+    "cover_url": "https://images1.penguinrandomhouse.com/cover/9780141393391",
+    "metadata_url": "https://www.penguinrandomhouse.com/books/286385/frankenstein-by-mary-shelley-edited-with-an-introduction-and-notes-by-maurice-hindle-cover-illustration-by-coralie-bickford-smith/"
+  },
+  {
+    "id": "butter",
+    "title": "Butter",
+    "author": "Asako Yuzuki",
+    "category": "Fiction",
+    "cover_url": "https://books.google.com/books/publisher/content?id=pZnLEAAAQBAJ&printsec=frontcover&img=1&zoom=1",
+    "metadata_url": "https://books.google.com/books/about/Butter.html?id=pZnLEAAAQBAJ"
+  },
+  {
+    "id": "welcome-to-the-hyunam-dong-bookshop",
+    "title": "Welcome to the Hyunam-dong Bookshop",
+    "author": "Hwang Bo-reum",
+    "category": "Fiction",
+    "cover_url": "https://books.google.com/books/publisher/content?id=LXneEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl",
+    "metadata_url": "https://www.bloomsbury.com/us/welcome-to-the-hyunamdong-bookshop-9781639732425/"
+  },
+  {
+    "id": "i-who-have-never-known-men",
+    "title": "I Who Have Never Known Men",
+    "author": "Jacqueline Harpman",
+    "category": "Fiction",
+    "cover_url": "https://images.squarespace-cdn.com/content/v1/55e1f8f0e4b02b09d51bf3bf/1641588945336-P9V4DQ446I57G1AP1DUX/9781945492600_FC.jpg",
+    "metadata_url": "https://www.iwhohaveneverknownmen.com/store/p/iwhohaveneverknownmen"
+  },
+  {
+    "id": "to-the-lighthouse",
+    "title": "To the Lighthouse",
+    "author": "Virginia Woolf",
+    "category": "Fiction",
+    "cover_url": "https://warblerpress.com/wp-content/uploads/2023/01/Lighthouse-cover-half-672x1024.jpg",
+    "metadata_url": "https://warblerpress.com/to-the-lighthouse/"
+  },
+  {
+    "id": "cats-cradle",
+    "title": "Cat’s Cradle",
+    "author": "Kurt Vonnegut",
+    "category": "Fiction",
+    "cover_url": "https://images4.penguinrandomhouse.com/cover/9780385333481",
+    "metadata_url": "https://www.penguinrandomhouse.com/books/184328/cats-cradle-by-kurt-vonnegut/"
+  },
+  {
+    "id": "the-ragged-trousered-philanthropists",
+    "title": "The Ragged Trousered Philanthropists",
+    "author": "Robert Tressell",
+    "category": "Fiction",
+    "cover_url": "https://cdn.penguin.co.uk/dam-assets/books/9780141187693/9780141187693-jacket-large.jpg",
+    "metadata_url": "https://www.penguin.co.uk/books/57463/the-ragged-trousered-philanthropists-by-robert-tressell-intro--tristram-hunt/9780141187693"
   }
 ]
