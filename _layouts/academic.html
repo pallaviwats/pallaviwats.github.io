@@ -1,0 +1,36 @@
+---
+layout: compress
+---
+
+{% include base_path %}
+<!doctype html>
+<html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+    <link rel="stylesheet" href="{{ base_path }}/assets/css/academic.css">
+  </head>
+  <body class="academic-site">
+    <a class="academic-skip-link" href="#main">Skip to content</a>
+    {% include academic-navigation.html %}
+
+    <main id="main" class="academic-page{% if page.url == '/' %} academic-home{% endif %}">
+      {% if page.title and page.title != '' %}
+        <header class="academic-page-header">
+          <h1>{{ page.title }}</h1>
+          {% if page.collection == 'posts' %}
+            <time class="academic-post-date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%B %-d, %Y' }}</time>
+          {% endif %}
+        </header>
+      {% endif %}
+      <div class="academic-content">{{ content }}</div>
+    </main>
+
+    <footer class="academic-footer">
+      {% include footer/custom.html %}
+      <span>&copy; {{ site.time | date: '%Y' }} {{ site.title }}.</span>
+      {% if site.author.github %}<a href="https://github.com/{{ site.author.github }}">GitHub</a>{% endif %}
+    </footer>
+    {% include scripts.html %}
+  </body>
+</html>
