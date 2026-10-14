@@ -7,7 +7,7 @@ title: "Research"
 <section aria-labelledby="working-papers">
   <h2 id="working-papers" class="research-section-title">Working Papers</h2>
 
-  <article class="research-paper">
+  <article class="research-paper" id="outsourcing-talent">
     <h3 class="paper-title">Outsourcing Talent: Inside the High-Skilled Immigration Market</h3>
     <ul class="paper-awards">
           <li>Snavely Prize for Best Dissertation Proposal (2025)</li>
@@ -19,7 +19,7 @@ title: "Research"
     </details>
   </article>
 
-  <article class="research-paper">
+  <article class="research-paper" id="who-benefits">
     <h3 class="paper-title">Who Benefits from High-Skilled Immigration Restrictions?</h3>
     <details class="paper-abstract">
       <summary>Abstract</summary>
