@@ -3,8 +3,8 @@ layout: academic
 permalink: /teaching/
 title: "Teaching"
 ---
-### Graduate TA, University of Virginia, Department of Economics
-ECON 3720: Introduction to Econometrics, Fall 2026
+### Graduate Student Instructor, University of Virginia, Department of Economics
+Introduction to Econometrics: Fall 2026
 
 Economics of Labor: Spring 2024, Spring 2025 & Spring 2026 
 
