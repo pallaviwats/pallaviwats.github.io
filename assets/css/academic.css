@@ -173,8 +173,42 @@ html {
   border-radius: 0;
 }
 
-.academic-intro h1 {
-  margin-bottom: 24px;
+.academic-profile {
+  width: 240px;
+  max-width: 100%;
+}
+
+.academic-social {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 18px;
+}
+
+.academic-social .academic-icon-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border: 1px solid var(--academic-rule);
+  border-radius: 50%;
+  background: #ffffff;
+  color: var(--academic-muted);
+  text-decoration: none;
+  transition: color 150ms ease, border-color 150ms ease;
+}
+
+.academic-social .academic-icon-button:hover {
+  color: var(--academic-teal);
+  border-color: var(--academic-teal);
+}
+
+.academic-icon-button svg {
+  display: block;
+  width: 21px;
+  height: 21px;
 }
 
 .academic-bio {
@@ -316,9 +350,17 @@ html {
   border-top: 1px solid var(--academic-rule);
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
   gap: 20px;
   color: var(--academic-muted);
   font-size: 13px;
+}
+
+.academic-footer-links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
 @media (max-width: 680px) {
@@ -355,6 +397,7 @@ html {
     gap: 28px;
   }
 
+  .academic-profile,
   .academic-portrait {
     width: 200px;
     height: auto;
@@ -366,6 +409,8 @@ html {
 
   .academic-footer {
     width: calc(100% - 48px);
+    align-items: flex-start;
+    gap: 10px;
   }
 }
 
