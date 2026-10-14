@@ -74,7 +74,7 @@ html {
 
 .academic-navigation .academic-brand {
   color: var(--academic-ink);
-  font-size: 22px;
+  font-size: 26px;
   font-weight: 600;
   letter-spacing: -0.035em;
   text-decoration: none;
@@ -179,6 +179,7 @@ html {
 
 .academic-bio {
   max-width: 620px;
+  font-size: 19px;
 }
 
 .academic-contact {
