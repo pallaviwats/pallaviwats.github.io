@@ -74,7 +74,7 @@ html {
 
 .academic-navigation .academic-brand {
   color: var(--academic-ink);
-  font-size: 26px;
+  font-size: 28px;
   font-weight: 600;
   letter-spacing: -0.035em;
   text-decoration: none;
@@ -99,7 +99,7 @@ html {
   display: block;
   padding: 8px 0;
   color: var(--academic-muted);
-  font-size: 15px;
+  font-size: 16px;
   text-decoration: none;
 }
 
