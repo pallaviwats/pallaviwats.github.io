@@ -132,5 +132,29 @@
     "category": "Fiction",
     "cover_url": "https://www.faber.co.uk/wp-content/uploads/2025/03/Intermezzo-2.jpg",
     "metadata_url": "https://www.faber.co.uk/product/9780571365487-intermezzo/"
+  },
+  {
+    "id": "normal-people",
+    "title": "Normal People",
+    "author": "Sally Rooney",
+    "category": "Fiction",
+    "cover_url": "https://www.faber.co.uk/wp-content/uploads/2021/09/9780571334650.jpg",
+    "metadata_url": "https://www.faber.co.uk/product/9780571334650-normal-people/"
+  },
+  {
+    "id": "conversations-with-friends",
+    "title": "Conversations with Friends",
+    "author": "Sally Rooney",
+    "category": "Fiction",
+    "cover_url": "https://www.faber.co.uk/wp-content/uploads/2024/12/Conversations-with-Friends-1.jpg",
+    "metadata_url": "https://www.faber.co.uk/product/9780571333134-conversations-with-friends/"
+  },
+  {
+    "id": "beautiful-world-where-are-you",
+    "title": "Beautiful World, Where Are You",
+    "author": "Sally Rooney",
+    "category": "Fiction",
+    "cover_url": "https://www.faber.co.uk/wp-content/uploads/2022/09/Beautiful-World-Where-Are-You.jpg",
+    "metadata_url": "https://www.faber.co.uk/product/9780571365449-beautiful-world-where-are-you/"
   }
 ]
