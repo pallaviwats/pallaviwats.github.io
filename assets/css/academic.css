@@ -159,9 +159,11 @@ html {
 
 .academic-intro {
   display: grid;
+  max-width: 800px;
+  margin-inline: auto;
   grid-template-columns: 240px minmax(0, 1fr);
   align-items: start;
-  gap: 48px;
+  gap: 40px;
 }
 
 .academic-portrait {
@@ -218,7 +220,7 @@ html {
 }
 
 .academic-bio {
-  max-width: 620px;
+  max-width: 520px;
   font-size: 19px;
 }
 
