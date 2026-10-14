@@ -5,7 +5,7 @@ permalink: /books/
 ---
 
 <section class="books-library" aria-label="My bookshelf">
-  <p class="books-intro">A growing shelf of books I’ve been reading.</p>
+  <p class="books-intro">Books I’ve read, collected over the years.</p>
   <div class="books-toolbar" data-books-controls hidden>
     <label class="books-search-label" for="books-search">Search the shelf</label>
     <input id="books-search" class="books-search" type="search" placeholder="Title or author" autocomplete="off" aria-controls="books-grid">

@@ -64,6 +64,14 @@
     "metadata_url": "https://www.penguin.co.in/book/mother-mary-comes-to-me/"
   },
   {
+    "id": "white-nights",
+    "title": "White Nights",
+    "author": "Fyodor Dostoevsky",
+    "category": "Fiction",
+    "cover_url": "https://images1.penguinrandomhouse.com/cover/9780241619780",
+    "metadata_url": "https://www.penguinrandomhouse.com/books/550795/white-nights-by-fyodor-dostoyevsky-translated-by-ronald-meyer-cover-illustrated-by-coralie-bickford-smith/9780241619780/"
+  },
+  {
     "id": "murder-at-the-savoy",
     "title": "Murder at the Savoy",
     "author": "Maj Sjöwall and Per Wahlöö",
@@ -156,5 +164,125 @@
     "category": "Fiction",
     "cover_url": "https://www.faber.co.uk/wp-content/uploads/2022/09/Beautiful-World-Where-Are-You.jpg",
     "metadata_url": "https://www.faber.co.uk/product/9780571365449-beautiful-world-where-are-you/"
+  },
+  {
+    "id": "palace-walk",
+    "title": "Palace Walk",
+    "author": "Naguib Mahfouz",
+    "category": "Fiction",
+    "cover_url": "https://images4.penguinrandomhouse.com/cover/9780307947109",
+    "metadata_url": "https://www.penguinrandomhouse.com/books/106183/palace-walk-by-naguib-mahfouz/"
+  },
+  {
+    "id": "convenience-store-woman",
+    "title": "Convenience Store Woman",
+    "author": "Sayaka Murata",
+    "category": "Fiction",
+    "cover_url": "https://groveatlantic.com/core/wp-content/uploads/2017/11/88EB3E65-7543-4AA1-A8FA-B23F36831C19-340x509.jpeg",
+    "metadata_url": "https://groveatlantic.com/book/convenience-store-woman/"
+  },
+  {
+    "id": "klara-and-the-sun",
+    "title": "Klara and the Sun",
+    "author": "Kazuo Ishiguro",
+    "category": "Fiction",
+    "cover_url": "https://images1.penguinrandomhouse.com/cover/9780593311295",
+    "metadata_url": "https://www.penguinrandomhouse.com/books/653825/klara-and-the-sun-by-kazuo-ishiguro/9780593311295/"
+  },
+  {
+    "id": "anna-karenina",
+    "title": "Anna Karenina",
+    "author": "Leo Tolstoy",
+    "category": "Fiction",
+    "cover_url": "https://images4.penguinrandomhouse.com/cover/9780679783305",
+    "metadata_url": "https://www.penguinrandomhouse.com/books/179277/anna-karenina-by-leo-tolstoy/"
+  },
+  {
+    "id": "the-city-and-its-uncertain-walls",
+    "title": "The City and Its Uncertain Walls",
+    "author": "Haruki Murakami",
+    "category": "Fiction",
+    "cover_url": "https://images3.penguinrandomhouse.com/cover/9780593687840",
+    "metadata_url": "https://www.penguinrandomhouse.com/books/746554/the-city-and-its-uncertain-walls-by-haruki-murakami/9780593687840/"
+  },
+  {
+    "id": "the-indigo-spell",
+    "title": "The Indigo Spell",
+    "author": "Richelle Mead",
+    "category": "Fiction",
+    "cover_url": "https://images2.penguinrandomhouse.com/cover/9781595146137",
+    "metadata_url": "https://www.penguinrandomhouse.com/books/306234/the-indigo-spell-by-richelle-mead/"
+  },
+  {
+    "id": "blood-promise",
+    "title": "Blood Promise",
+    "author": "Richelle Mead",
+    "category": "Fiction",
+    "cover_url": "https://images1.penguinrandomhouse.com/cover/9781595143105",
+    "metadata_url": "https://www.penguinrandomhouse.com/books/304142/blood-promise-by-richelle-mead/paperback/"
+  },
+  {
+    "id": "spirit-bound",
+    "title": "Spirit Bound",
+    "author": "Richelle Mead",
+    "category": "Fiction",
+    "cover_url": "https://images1.penguinrandomhouse.com/cover/9781595143662",
+    "metadata_url": "https://www.penguinrandomhouse.com/books/304143/spirit-bound-by-richelle-mead/"
+  },
+  {
+    "id": "last-sacrifice",
+    "title": "Last Sacrifice",
+    "author": "Richelle Mead",
+    "category": "Fiction",
+    "cover_url": "https://images2.penguinrandomhouse.com/cover/9781595144409",
+    "metadata_url": "https://www.penguinrandomhouse.com/books/306169/last-sacrifice-by-richelle-mead/"
+  },
+  {
+    "id": "second-place",
+    "title": "Second Place",
+    "author": "Rachel Cusk",
+    "category": "Fiction",
+    "cover_url": "https://www.faber.co.uk/wp-content/uploads/2024/12/Second-Place.jpg",
+    "metadata_url": "https://www.faber.co.uk/product/9780571366309-second-place/"
+  },
+  {
+    "id": "the-memory-police",
+    "title": "The Memory Police",
+    "author": "Yoko Ogawa",
+    "category": "Fiction",
+    "cover_url": "https://images1.penguinrandomhouse.com/cover/9781101911815",
+    "metadata_url": "https://www.penguinrandomhouse.com/books/252774/the-memory-police-by-yoko-ogawa/"
+  },
+  {
+    "id": "the-goldfinch",
+    "title": "The Goldfinch",
+    "author": "Donna Tartt",
+    "category": "Fiction",
+    "cover_url": "https://www.hachettebookgroup.com/wp-content/uploads/2024/01/9780316248679.jpg",
+    "metadata_url": "https://www.hachettebookgroup.com/titles/donna-tartt/the-goldfinch/9780316248679/?lens=little-brown"
+  },
+  {
+    "id": "fangirl",
+    "title": "Fangirl",
+    "author": "Rainbow Rowell",
+    "category": "Fiction",
+    "cover_url": "https://ik.imagekit.io/panmac/tr:f-jpg,di-placeholder_portrait_aMjPtD9YZ.jpg,w-350/edition/9781447263227.jpg",
+    "metadata_url": "https://www.panmacmillan.com/authors/rainbow-rowell/fangirl/9781447263227"
+  },
+  {
+    "id": "em-and-the-big-hoom",
+    "title": "Em and the Big Hoom",
+    "author": "Jerry Pinto",
+    "category": "Fiction",
+    "cover_url": "https://images3.penguinrandomhouse.com/cover/9780143124764",
+    "metadata_url": "https://www.penguinrandomhouse.com/books/314819/em-and-the-big-hoom-by-jerry-pinto/"
+  },
+  {
+    "id": "the-pastor",
+    "title": "The Pastor",
+    "author": "Hanne Ørstavik",
+    "category": "Fiction",
+    "cover_url": "https://archipelagobooks.org/wp-content/uploads/2021/02/9781953861085.jpg",
+    "metadata_url": "https://archipelagobooks.org/book/the-pastor/"
   }
 ]
