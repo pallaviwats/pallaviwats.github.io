@@ -30,7 +30,7 @@ html {
 
 .academic-site a {
   color: var(--academic-teal);
-  text-underline-offset: 0.18em;
+  text-decoration: none;
 }
 
 .academic-site a:hover {
@@ -106,7 +106,6 @@ html {
 .academic-navigation li a:hover,
 .academic-navigation li a[aria-current="page"] {
   color: var(--academic-teal);
-  text-decoration: underline;
 }
 
 .academic-page#main {
@@ -259,7 +258,7 @@ html {
 .paper-title .paper-coauthors a:hover,
 .paper-title .paper-coauthors a:visited {
   color: inherit;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .paper-awards {
