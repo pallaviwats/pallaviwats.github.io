@@ -181,6 +181,7 @@ html {
 .academic-social {
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 12px;
   margin-top: 18px;
@@ -399,6 +400,10 @@ html {
   .academic-portrait {
     width: 200px;
     height: auto;
+  }
+
+  .academic-profile {
+    margin-inline: auto;
   }
 
   .academic-site .paper-title {
