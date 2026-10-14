@@ -9,7 +9,6 @@ html {
   --academic-ink: #25323b;
   --academic-muted: #4d5962;
   --academic-accent: #7a3e48;
-  --academic-accent-hover: #62323a;
   --academic-award: #756b65;
   --academic-rule: #dce5e4;
   margin: 0;
@@ -35,8 +34,10 @@ html {
   text-decoration: none;
 }
 
-.academic-site a:hover {
-  color: var(--academic-accent-hover);
+.academic-site a:hover,
+.academic-site a:active,
+.academic-site a:focus-visible {
+  color: var(--academic-accent);
 }
 
 .academic-site a:focus-visible,
