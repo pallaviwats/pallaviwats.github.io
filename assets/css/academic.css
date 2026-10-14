@@ -226,8 +226,11 @@ html {
   max-width: 520px;
   font-size: 19px;
   text-align: justify;
-  -webkit-hyphens: auto;
-  hyphens: auto;
+  text-wrap: pretty;
+  -webkit-hyphens: none;
+  hyphens: none;
+  word-break: normal;
+  overflow-wrap: normal;
 }
 
 .academic-content .academic-research-lead {
