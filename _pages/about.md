@@ -22,6 +22,7 @@ blogger-color: "#F37100"
           <path d="m4 6 8 7 8-7"></path>
         </svg>
       </a>
+      <a class="academic-icon-button academic-cv-button" href="{{ '/files/pallaviwats_cv.pdf' | relative_url }}" aria-label="CV" title="CV">CV</a>
       <a class="academic-icon-button" href="{{ site.author.linkedin }}" aria-label="LinkedIn profile" title="LinkedIn" target="_blank" rel="me noopener noreferrer">
         <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
           <rect x="2" y="2" width="20" height="20" rx="2" fill="currentColor"></rect>
@@ -33,8 +34,5 @@ blogger-color: "#F37100"
   </div>
   <div>
     <p class="academic-bio">I am a PhD candidate in Economics at the <a href="https://economics.virginia.edu/">University of Virginia</a>. My research is in labor economics and empirical industrial organization, with a focus on high-skilled immigration. I study how immigration policy shapes firms’ hiring decisions and workers’ labor market outcomes.</p>
-    <div class="academic-contact">
-      <a href="{{ '/files/pallaviwats_cv.pdf' | relative_url }}">CV</a>
-    </div>
   </div>
 </div>
