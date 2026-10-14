@@ -159,27 +159,28 @@ html {
   max-width: none;
   padding-top: 76px;
   padding-left: max(32px, calc((100% - 900px) / 2));
+  padding-right: 24px;
 }
 
 .academic-intro {
   display: grid;
-  max-width: 1100px;
+  max-width: none;
   margin-inline: 0;
-  grid-template-columns: 240px minmax(0, 1fr);
+  grid-template-columns: 260px minmax(0, 1fr);
   align-items: start;
-  gap: 40px;
+  gap: 20px;
 }
 
 .academic-portrait {
   display: block;
-  width: 240px;
+  width: 260px;
   height: auto;
   object-fit: cover;
   border-radius: 0;
 }
 
 .academic-profile {
-  width: 240px;
+  width: 260px;
   max-width: 100%;
 }
 
@@ -224,7 +225,7 @@ html {
 }
 
 .academic-bio {
-  max-width: 820px;
+  max-width: none;
   font-size: 19px;
   text-align: left;
   text-wrap: pretty;
@@ -457,7 +458,7 @@ html {
 
   .academic-profile,
   .academic-portrait {
-    width: 200px;
+    width: 220px;
     height: auto;
   }
 
