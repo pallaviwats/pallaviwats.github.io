@@ -4,10 +4,9 @@ layout: compress
 
 {% include base_path %}
 <!doctype html>
-<html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
+<html lang="{{ site.locale | slice: 0,2 }}" >
   <head>
     {% include head.html %}
-    {% include head/custom.html %}
     <link rel="stylesheet" href="{{ base_path }}/assets/css/academic.css?v={{ site.time | date: '%s' }}">
   </head>
   <body class="academic-site">
@@ -27,10 +26,8 @@ layout: compress
     </main>
 
     <footer class="academic-footer">
-      {% include footer/custom.html %}
       <span>&copy; {{ site.time | date: '%Y' }} {{ site.title }}.</span>
       {% if site.author.github %}<a href="https://github.com/{{ site.author.github }}">GitHub</a>{% endif %}
     </footer>
-    {% include scripts.html %}
   </body>
 </html>

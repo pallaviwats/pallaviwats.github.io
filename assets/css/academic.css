@@ -1,3 +1,9 @@
+html {
+  background: #ffffff;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
 /* A quiet, shared layout for the site's academic pages. */
 .academic-site {
   --academic-ink: #25323b;
@@ -154,17 +160,17 @@
 
 .academic-intro {
   display: grid;
-  grid-template-columns: 170px minmax(0, 1fr);
+  grid-template-columns: 240px minmax(0, 1fr);
   align-items: start;
   gap: 48px;
 }
 
 .academic-portrait {
   display: block;
-  width: 170px;
-  height: 170px;
+  width: 240px;
+  height: auto;
   object-fit: cover;
-  border-radius: 50%;
+  border-radius: 0;
 }
 
 .academic-intro h1 {
@@ -349,8 +355,8 @@
   }
 
   .academic-portrait {
-    width: 112px;
-    height: 112px;
+    width: 200px;
+    height: auto;
   }
 
   .academic-site .paper-title {
@@ -369,4 +375,36 @@
     transition: none;
     animation: none;
   }
+}
+
+.academic-content img {
+  max-width: 100%;
+  height: auto;
+}
+
+.academic-content ul {
+  margin-block-start: 0.5em;
+}
+
+.academic-content li {
+  margin-bottom: 0.25em;
+}
+
+.academic-content .paper-awards li {
+  margin-bottom: 0;
+}
+
+.academic-content pre {
+  overflow-x: auto;
+}
+
+.academic-content table {
+  border-collapse: collapse;
+}
+
+.academic-content th,
+.academic-content td {
+  padding: 8px 12px;
+  border-bottom: 1px solid var(--academic-rule);
+  text-align: left;
 }
