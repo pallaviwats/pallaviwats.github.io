@@ -113,7 +113,7 @@ html {
 
 .academic-page#main {
   width: 100%;
-  max-width: 1040px;
+  max-width: 884px;
   margin: 0 auto;
   padding: 58px 32px 72px;
   flex: 1;
@@ -156,14 +156,15 @@ html {
 }
 
 .academic-home#main {
-  max-width: 984px;
+  max-width: none;
   padding-top: 76px;
+  padding-left: max(32px, calc((100% - 900px) / 2));
 }
 
 .academic-intro {
   display: grid;
-  max-width: 900px;
-  margin-inline: auto;
+  max-width: 1100px;
+  margin-inline: 0;
   grid-template-columns: 240px minmax(0, 1fr);
   align-items: start;
   gap: 40px;
@@ -223,7 +224,7 @@ html {
 }
 
 .academic-bio {
-  max-width: 620px;
+  max-width: 820px;
   font-size: 19px;
   text-align: left;
   text-wrap: pretty;
