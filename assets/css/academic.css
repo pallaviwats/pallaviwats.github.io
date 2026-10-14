@@ -8,7 +8,9 @@ html {
 .academic-site {
   --academic-ink: #25323b;
   --academic-muted: #4d5962;
-  --academic-teal: #0b7285;
+  --academic-accent: #7a3e48;
+  --academic-accent-hover: #62323a;
+  --academic-award: #756b65;
   --academic-rule: #dce5e4;
   margin: 0;
   padding: 0;
@@ -29,17 +31,17 @@ html {
 }
 
 .academic-site a {
-  color: var(--academic-teal);
+  color: var(--academic-accent);
   text-decoration: none;
 }
 
 .academic-site a:hover {
-  color: #075463;
+  color: var(--academic-accent-hover);
 }
 
 .academic-site a:focus-visible,
 .academic-site summary:focus-visible {
-  outline: 2px solid var(--academic-teal);
+  outline: 2px solid var(--academic-accent);
   outline-offset: 5px;
 }
 
@@ -105,7 +107,7 @@ html {
 
 .academic-navigation li a:hover,
 .academic-navigation li a[aria-current="page"] {
-  color: var(--academic-teal);
+  color: var(--academic-accent);
 }
 
 .academic-page#main {
@@ -203,8 +205,8 @@ html {
 }
 
 .academic-social .academic-icon-button:hover {
-  color: var(--academic-teal);
-  border-color: var(--academic-teal);
+  color: var(--academic-accent);
+  border-color: var(--academic-accent);
 }
 
 .academic-icon-button svg {
@@ -241,7 +243,7 @@ html {
 
 .academic-site .paper-title {
   margin: 20px 0 16px;
-  color: var(--academic-teal);
+  color: var(--academic-accent);
   font-size: 25px;
   line-height: 1.4;
 }
@@ -267,7 +269,7 @@ html {
   margin: 0 0 18px;
   padding: 0;
   list-style: none;
-  color: #7d6652;
+  color: var(--academic-award);
   font-size: 14px;
   line-height: 1.7;
 }
@@ -279,7 +281,7 @@ html {
 .paper-abstract summary {
   width: fit-content;
   padding: 8px 0;
-  color: var(--academic-teal);
+  color: var(--academic-accent);
   font-size: 15px;
   cursor: pointer;
 }
