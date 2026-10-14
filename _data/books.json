@@ -1,0 +1,136 @@
+[
+  {
+    "id": "a-little-life",
+    "title": "A Little Life",
+    "author": "Hanya Yanagihara",
+    "category": "Fiction",
+    "cover_url": "https://images2.penguinrandomhouse.com/cover/9780804172707",
+    "metadata_url": "https://www.penguinrandomhouse.com/books/239717/a-little-life-by-hanya-yanagihara/9780804172707/"
+  },
+  {
+    "id": "strange-weather-in-tokyo",
+    "title": "Strange Weather in Tokyo",
+    "author": "Hiromi Kawakami",
+    "category": "Fiction",
+    "cover_url": "https://s37710.pcdn.co/wp-content/uploads/sites/2/2017/04/9781640090163-1.jpg",
+    "metadata_url": "https://www.counterpointpress.com/books/strange-weather-in-tokyo/"
+  },
+  {
+    "id": "there-are-rivers-in-the-sky",
+    "title": "There Are Rivers in the Sky",
+    "author": "Elif Shafak",
+    "category": "Fiction",
+    "cover_url": "https://images1.penguinrandomhouse.com/cover/9780593687567",
+    "metadata_url": "https://www.penguinrandomhouse.com/books/743978/there-are-rivers-in-the-sky-by-elif-shafak/"
+  },
+  {
+    "id": "family-matters",
+    "title": "Family Matters",
+    "author": "Rohinton Mistry",
+    "category": "Fiction",
+    "cover_url": "https://images4.penguinrandomhouse.com/cover/9780375703423",
+    "metadata_url": "https://www.penguinrandomhouse.com/books/115369/family-matters-by-rohinton-mistry/"
+  },
+  {
+    "id": "snow",
+    "title": "Snow",
+    "author": "Orhan Pamuk",
+    "category": "Fiction",
+    "cover_url": "https://images2.penguinrandomhouse.com/cover/9780375706868",
+    "metadata_url": "https://www.penguinrandomhouse.com/books/126390/snow-by-orhan-pamuk-introduction-by-margaret-atwood-translated-by-maureen-freely/9780307700889/"
+  },
+  {
+    "id": "diary-of-a-void",
+    "title": "Diary of a Void",
+    "author": "Emi Yagi",
+    "category": "Fiction",
+    "cover_url": "https://images4.penguinrandomhouse.com/cover/9780143136880",
+    "metadata_url": "https://www.penguinrandomhouse.com/books/678228/diary-of-a-void-by-emi-yagi-translated-by-david-boyd-and-lucy-north/"
+  },
+  {
+    "id": "the-secret-of-secrets",
+    "title": "The Secret of Secrets",
+    "author": "Dan Brown",
+    "category": "Fiction",
+    "cover_url": "https://images2.penguinrandomhouse.com/cover/9780385546898",
+    "metadata_url": "https://www.penguinrandomhouse.com/books/670325/the-secret-of-secrets-by-dan-brown/hardcover/"
+  },
+  {
+    "id": "mother-mary-comes-to-me",
+    "title": "Mother Mary Comes to Me",
+    "author": "Arundhati Roy",
+    "category": "Nonfiction",
+    "cover_url": "https://cdn.penguin.co.in/wp-content/uploads/2026/06/9780143473060.jpg",
+    "metadata_url": "https://www.penguin.co.in/book/mother-mary-comes-to-me/"
+  },
+  {
+    "id": "murder-at-the-savoy",
+    "title": "Murder at the Savoy",
+    "author": "Maj Sjöwall and Per Wahlöö",
+    "category": "Fiction",
+    "cover_url": "https://images1.penguinrandomhouse.com/cover/9780307390912",
+    "metadata_url": "https://www.penguinrandomhouse.com/books/168096/murder-at-the-savoy-by-maj-sjowall-and-per-wahloo-with-a-new-introduction-by-arne-dahl/"
+  },
+  {
+    "id": "minas-matchbox",
+    "title": "Mina’s Matchbox",
+    "author": "Yoko Ogawa",
+    "translator": "Stephen B. Snyder",
+    "category": "Fiction",
+    "cover_url": "https://images1.penguinrandomhouse.com/cover/9780593313411",
+    "metadata_url": "https://www.penguinrandomhouse.com/books/671106/minas-matchbox-by-yoko-ogawa/"
+  },
+  {
+    "id": "heart-lamp",
+    "title": "Heart Lamp",
+    "author": "Banu Mushtaq",
+    "translator": "Deepa Bhasthi",
+    "category": "Fiction",
+    "cover_url": "https://www.andotherstories.org/wp-content/uploads/2024/09/Heart_Lamp_IntBooker2025-scaled.jpg",
+    "metadata_url": "https://www.andotherstories.org/heart-lamp-selected-stories/"
+  },
+  {
+    "id": "kitchen",
+    "title": "Kitchen",
+    "author": "Banana Yoshimoto",
+    "translator": "Megan Backus",
+    "category": "Fiction",
+    "cover_url": "https://www.faber.co.uk/wp-content/uploads/2021/09/9780571342723.jpg",
+    "metadata_url": "https://www.faber.co.uk/product/9780571342723-kitchen/"
+  },
+  {
+    "id": "the-door",
+    "title": "The Door",
+    "author": "Magda Szabó",
+    "translator": "Len Rix",
+    "category": "Fiction",
+    "cover_url": "https://images2.penguinrandomhouse.com/cover/9781590177716",
+    "metadata_url": "https://www.penguinrandomhouse.com/books/643611/the-door-by-magda-szabo-translated-from-the-hungarian-by-len-rix/"
+  },
+  {
+    "id": "days-at-the-morisaki-bookshop",
+    "title": "Days at the Morisaki Bookshop",
+    "author": "Satoshi Yagisawa",
+    "translator": "Eric Ozawa",
+    "category": "Fiction",
+    "cover_url": "https://www.bonnierbooks.co.uk/wp-content/uploads/2023/04/manilla-press-days-at-the-morisaki-bookshop-646x992.jpg",
+    "metadata_url": "https://www.bonnierbooks.co.uk/books/manilla-press/days-at-the-morisaki-bookshop/"
+  },
+  {
+    "id": "more-days-at-the-morisaki-bookshop",
+    "title": "More Days at the Morisaki Bookshop",
+    "author": "Satoshi Yagisawa",
+    "translator": "Eric Ozawa",
+    "category": "Fiction",
+    "cover_url": "https://www.bonnierbooks.co.uk/wp-content/uploads/2024/09/manilla-press-more-days-at-the-morisaki-bookshop-scaled.jpg",
+    "metadata_url": "https://www.bonnierbooks.co.uk/books/manilla-press/more-days-at-the-morisaki-bookshop/"
+  },
+  {
+    "id": "intermezzo",
+    "title": "Intermezzo",
+    "author": "Sally Rooney",
+    "category": "Fiction",
+    "cover_url": "https://www.faber.co.uk/wp-content/uploads/2025/03/Intermezzo-2.jpg",
+    "metadata_url": "https://www.faber.co.uk/product/9780571365487-intermezzo/"
+  }
+]
