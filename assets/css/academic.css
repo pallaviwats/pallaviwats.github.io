@@ -225,7 +225,22 @@ html {
 .academic-bio {
   max-width: 520px;
   font-size: 19px;
-  text-align: left;
+  text-align: justify;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+.academic-content .academic-research-lead {
+  margin-bottom: 12px;
+}
+
+.academic-research-list {
+  margin: 0;
+  padding-left: 24px;
+}
+
+.academic-research-list li + li {
+  margin-top: 16px;
 }
 
 .research-section-title {

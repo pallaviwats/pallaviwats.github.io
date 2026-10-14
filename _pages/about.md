@@ -34,6 +34,10 @@ blogger-color: "#F37100"
   </div>
   <div>
     <p class="academic-bio">I am a PhD candidate in Economics at the <a href="https://economics.virginia.edu/">University of Virginia</a>. My research interests are in labor economics and empirical industrial organization.</p>
-    <p class="academic-bio">My research focuses on high-skilled immigration. In <a href="{{ '/research/' | relative_url }}#outsourcing-talent" title="Outsourcing Talent: Inside the High-Skilled Immigration Market">one paper</a>, I show how outsourcing intermediaries and employer market power in the H-1B program shape wages and the allocation of workers across firms, and what this implies for immigration policy design. In <a href="{{ '/research/' | relative_url }}#who-benefits" title="Who Benefits from High-Skilled Immigration Restrictions?">another</a>, I study whether immigration restrictions raise domestic employment or shift employment abroad, and who ultimately gains from these changes.</p>
+    <p class="academic-bio academic-research-lead">My research focuses on high-skilled immigration.</p>
+    <ol class="academic-bio academic-research-list">
+      <li>I study how outsourcing intermediaries and employer market power in the H-1B program shape wages and the allocation of workers across firms, and what this implies for immigration policy design.</li>
+      <li>Do immigration restrictions raise domestic employment or shift employment abroad? Who benefits?</li>
+    </ol>
   </div>
 </div>
