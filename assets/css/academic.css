@@ -225,6 +225,7 @@ html {
 .academic-bio {
   max-width: 520px;
   font-size: 19px;
+  text-align: justify;
 }
 
 .research-section-title {
