@@ -3,7 +3,6 @@
 
 (() => {
   const books=JSON.parse(document.getElementById('pw-white-book-data').textContent);
-  const controllers=[];
   document.querySelectorAll('#pw-white-bookcase .pw-refined-library').forEach(root=>{
   const byId=new Map(books.map(b=>[b.id,b]));
   const groups=[
@@ -17,8 +16,9 @@
   const series=new Map();groups.forEach((ids,i)=>ids.forEach((id,n)=>series.set(id,{name:groupNames[i],number:n+1,total:ids.length})));
   const state={height:206,selected:null};
   const shelves=root.querySelector('.sl-shelves');
+  const authorMeasure=document.createElement('canvas').getContext('2d');authorMeasure.font='7px Arial';
   const make=(tag,cls,text)=>{const e=document.createElement(tag);if(cls)e.className=cls;if(text!==undefined)e.textContent=text;return e;};
-  function save(){}
+
   function shortTitle(b){return b.title;}
   function boundaries(){
     const forbidden=new Set();
@@ -41,9 +41,21 @@
     return cuts.slice(0,-1).map((start,i)=>books.slice(start,cuts[i+1]));
   }
   function weight(b){let hash=0;for(const c of b.id)hash=(hash+c.charCodeAt(0))%17;if(b.id==='war-and-peace'||b.id==='a-little-life')return 1.46;if(b.title.length>65)return 1.55;if(b.title.length>35)return 1.3;if(b.id.startsWith('harry-potter'))return 1.25;if(series.has(b.id))return 1.05;return .78+hash*.034;}
-  function bookButton(b,width,mirror=false){const i=books.indexOf(b),g=series.get(b.id),button=make(mirror?'span':'button','sl-book cursor-interaction');if(!mirror)button.type='button';else button.setAttribute('aria-hidden','true');button.dataset.bookId=b.id;button.classList.toggle('sl-title-only',b.title.length>28||width<22);button.classList.toggle('sl-hindi',/[\u0900-\u097f]/.test(b.title));button.setAttribute('aria-label',b.title+' by '+b.author+(g?', '+g.name+' Book '+g.number:'')+' — open details');button.setAttribute('aria-expanded',String(state.selected===b.id));button.setAttribute('data-tooltip',b.title+' — '+b.author);button.style.setProperty('--bw',width+'px');button.style.setProperty('--bh',(state.height*(.92+(i*7%9)/100))+'px');button.style.setProperty('--tone',b.tone);button.style.setProperty('--cover-ratio',b.ratio);button.style.setProperty('--ink',b.ink);button.style.setProperty('--lean',((i*13%23-11)*.07)+'deg');button.style.setProperty('--offset',((i*7%5-2)*.2)+'px');button.style.setProperty('--book-font',i%4===0?'Georgia,serif':'Arial,sans-serif');button.style.setProperty('--ts',(shortTitle(b).length<20?11.3:10.2)+'px');const object=make('span','sl-object');object.setAttribute('aria-hidden','true');const skin=make('span','sl-skin');if(b.image){const img=make('img','sl-texture');img.src=b.image;img.alt='';img.draggable=false;skin.append(img,make('span','sl-tint'));}const title=make('span','sl-title');title.append(make('span','sl-title-text',shortTitle(b)));skin.append(make('span','sl-rule sl-rule-top'),title,make('span','sl-author',b.author),make('span','sl-rule sl-rule-bottom'));if(g)skin.append(make('span','sl-volume',String(g.number)));skin.append(make('span','sl-grain'));const front=make('span','sl-cover-plane');if(b.image){const image=make('img');image.src=b.cover_url;image.loading='lazy';image.decoding='async';image.alt='';image.draggable=false;front.append(image);}object.append(skin,front,make('span','sl-page-top'));button.append(object);button.addEventListener('click',()=>{state.selected=state.selected===b.id?null:b.id;updateDetails();save();const panel=shelves.querySelector('.sl-detail');if(panel)panel.scrollIntoView({block:'nearest',behavior:'auto'});});return button;}
-  function detail(b){const box=make('div','sl-detail');box.setAttribute('role','region');box.setAttribute('aria-live','polite');box.setAttribute('aria-label',b.title+' details');const close=make('button','sl-close cursor-interaction','×');close.type='button';close.setAttribute('aria-label','Close details');close.addEventListener('click',()=>{const previous=state.selected;state.selected=null;updateDetails();save();shelves.querySelector('[data-book-id="'+previous+'"]')?.focus();});box.append(close);if(b.image){const cover=make('a','sl-cover-link cursor-interaction');cover.href=b.cover_url;cover.target='_blank';cover.rel='noopener noreferrer';cover.setAttribute('aria-label','Open full-size cover of '+b.title);const img=make('img');img.src=b.cover_url;img.decoding='async';img.alt=b.title+' front cover';cover.append(img);box.append(cover);}const info=make('div');info.append(make('h2',null,b.title),make('p',null,b.author));const g=series.get(b.id);if(g)info.append(make('p','sl-meta',g.name+' · Book '+g.number+' of '+g.total));info.append(make('p','sl-meta','Read'+(b.translator?' · Translated by '+b.translator:'')));const a=make('a','cursor-interaction','More about this book ↗');a.href=b.metadata_url;a.target='_blank';a.rel='noopener noreferrer';info.append(a);box.append(info);return box;}
-  function updateDetails(){syncMotion();shelves.querySelectorAll('.sl-detail').forEach(e=>e.remove());shelves.querySelectorAll('[data-book-id]').forEach(e=>e.setAttribute('aria-expanded',String(state.selected===e.dataset.bookId)));if(state.selected){const button=shelves.querySelector('[data-book-id="'+state.selected+'"]');button?.closest('.sl-row').append(detail(byId.get(state.selected)));}}
+  function bookButton(b,width,mirror=false){const i=books.indexOf(b),g=series.get(b.id),button=make(mirror?'span':'button','sl-book cursor-interaction');if(!mirror)button.type='button';else button.setAttribute('aria-hidden','true');button.dataset.bookId=b.id;button.classList.toggle('sl-title-only',b.title.length>20||width<22||authorMeasure.measureText(b.author).width>64||width-8<10);button.classList.toggle('sl-hindi',/[\u0900-\u097f]/.test(b.title));button.setAttribute('aria-label',b.title+' by '+b.author+(g?', '+g.name+' Book '+g.number:'')+' — open details');button.setAttribute('aria-expanded',String(state.selected===b.id));button.setAttribute('data-tooltip',b.title+' — '+b.author);button.style.setProperty('--bw',width+'px');button.style.setProperty('--bh',(state.height*(.92+(i*7%9)/100))+'px');button.style.setProperty('--tone',b.tone);button.style.setProperty('--cover-ratio',b.ratio);button.style.setProperty('--ink',b.ink);button.style.setProperty('--lean',((i*13%23-11)*.07)+'deg');button.style.setProperty('--offset',((i*7%5-2)*.2)+'px');button.style.setProperty('--book-font',i%4===0?'Georgia,serif':'Arial,sans-serif');button.style.setProperty('--ts',(shortTitle(b).length<20?11.3:10.2)+'px');const object=make('span','sl-object');object.setAttribute('aria-hidden','true');const skin=make('span','sl-skin');if(b.image){const img=make('img','sl-texture');img.src=b.image;img.alt='';img.draggable=false;skin.append(img,make('span','sl-tint'));}const title=make('span','sl-title');title.append(make('span','sl-title-text',shortTitle(b)));skin.append(make('span','sl-rule sl-rule-top'),title,make('span','sl-author',b.author),make('span','sl-rule sl-rule-bottom'));if(g)skin.append(make('span','sl-volume',String(g.number)));skin.append(make('span','sl-grain'));const front=make('span','sl-cover-plane');if(b.image){const image=make('img');image.src=b.cover_url;image.loading='lazy';image.decoding='async';image.alt='';image.draggable=false;front.append(image);}object.append(skin,front,make('span','sl-page-top'));button.append(object);button.addEventListener('click',()=>{state.selected=state.selected===b.id?null:b.id;updateDetails();const panel=shelves.querySelector('.sl-detail');if(panel)panel.scrollIntoView({block:'nearest',behavior:'auto'});});return button;}
+  function detail(b){const box=make('div','sl-detail');box.setAttribute('role','region');box.setAttribute('aria-live','polite');box.setAttribute('aria-label',b.title+' details');const close=make('button','sl-close cursor-interaction','×');close.type='button';close.setAttribute('aria-label','Close details');close.addEventListener('click',()=>{const previous=state.selected;state.selected=null;updateDetails();shelves.querySelector('[data-book-id="'+previous+'"]')?.focus();});box.append(close);if(b.image){const cover=make('a','sl-cover-link cursor-interaction');cover.href=b.cover_url;cover.target='_blank';cover.rel='noopener noreferrer';cover.setAttribute('aria-label','Open full-size cover of '+b.title);const img=make('img');img.src=b.cover_url;img.decoding='async';img.alt=b.title+' front cover';cover.append(img);box.append(cover);}const info=make('div');const heading=make('h2');const titleLink=make('a','sl-title-link cursor-interaction',b.title);titleLink.href=b.metadata_url;titleLink.target='_blank';titleLink.rel='noopener noreferrer';titleLink.setAttribute('aria-label','More about '+b.title);heading.append(titleLink);info.append(heading,make('p',null,b.author));if(b.id==='a-little-life')info.append(make('p','reading-status','Currently reading'));const g=series.get(b.id);if(g)info.append(make('p','sl-meta',g.name+' · Book '+g.number+' of '+g.total));if(b.translator)info.append(make('p','sl-meta','Translated by '+b.translator));box.append(info);return box;}
+  function updateDetails(){syncMotion();shelves.querySelectorAll('.sl-detail').forEach(e=>e.remove());shelves.querySelectorAll('[data-book-id]').forEach(e=>e.setAttribute('aria-expanded',String(state.selected===e.dataset.bookId)));if(state.selected){const button=shelves.querySelector('[data-book-id="'+state.selected+'"]');button?.closest('.sl-row').append(detail(byId.get(state.selected)));}fitSpineLabels();}
+  function fitSpineLabels(){
+    shelves.querySelectorAll('.sl-book').forEach(button=>{
+      const title=button.querySelector('.sl-title');
+      const text=button.querySelector('.sl-title-text');
+      let size=parseFloat(button.style.getPropertyValue('--ts'))||10.2;
+      title.style.fontSize=size+'px';
+      const fits=()=>text.scrollHeight<=title.clientHeight+.5&&text.scrollWidth<=title.clientWidth+.5;
+      if(!fits())button.classList.add('sl-title-only');
+      while(!fits()&&size>6.5){size=Math.max(6.5,size-.25);title.style.fontSize=size+'px';}
+    });
+  }
+
   function syncMotion(){root.classList.toggle('sl-still',Boolean(state.selected));}
   let lastWidth=0;
   function innerWidth(){const css=getComputedStyle(shelves);return shelves.clientWidth-parseFloat(css.paddingLeft)-parseFloat(css.paddingRight);}
@@ -66,8 +78,7 @@
     });
     updateDetails();
   }
-  controllers.push({root,state,render});
-  render();new ResizeObserver(()=>{if(Math.abs(innerWidth()-lastWidth)>2)render();}).observe(shelves);
+  render();document.fonts?.ready.then(()=>fitSpineLabels());new ResizeObserver(()=>{if(Math.abs(innerWidth()-lastWidth)>2)render();}).observe(shelves);
   });
 })();
 
