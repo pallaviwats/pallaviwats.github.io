@@ -64,6 +64,14 @@
     "metadata_url": "https://www.penguin.co.in/book/mother-mary-comes-to-me/"
   },
   {
+    "id": "a-room-of-ones-own",
+    "title": "A Room of One’s Own",
+    "author": "Virginia Woolf",
+    "category": "Fiction",
+    "cover_url": "https://covers.openlibrary.org/b/id/6559057-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL39379W"
+  },
+  {
     "id": "the-book-of-laughter-and-forgetting",
     "title": "The Book of Laughter and Forgetting",
     "author": "Milan Kundera",
@@ -294,6 +302,14 @@
     "metadata_url": "https://www.penguinrandomhouse.com/books/314819/em-and-the-big-hoom-by-jerry-pinto/"
   },
   {
+    "id": "shogun",
+    "title": "Shōgun",
+    "author": "James Clavell",
+    "category": "Fiction",
+    "cover_url": "https://covers.openlibrary.org/b/id/2394441-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL2918756W"
+  },
+  {
     "id": "war-and-war",
     "title": "War & War",
     "author": "László Krasznahorkai",
@@ -308,6 +324,14 @@
     "category": "Fiction",
     "cover_url": "https://images4.penguinrandomhouse.com/cover/9780593314920",
     "metadata_url": "https://www.penguinrandomhouse.com/books/678116/the-rainbow-by-yasunari-kawabata/"
+  },
+  {
+    "id": "the-collected-poems",
+    "title": "The Collected Poems",
+    "author": "Sylvia Plath",
+    "category": "Poetry",
+    "cover_url": "https://covers.openlibrary.org/b/id/11387588-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL24682571W"
   },
   {
     "id": "immortality",
@@ -396,5 +420,677 @@
     "category": "Fiction",
     "cover_url": "https://cdn.penguin.co.uk/dam-assets/books/9780141187693/9780141187693-jacket-large.jpg",
     "metadata_url": "https://www.penguin.co.uk/books/57463/the-ragged-trousered-philanthropists-by-robert-tressell-intro--tristram-hunt/9780141187693"
+  },
+  {
+    "id": "interpreter-of-maladies",
+    "title": "Interpreter of Maladies",
+    "author": "Jhumpa Lahiri",
+    "category": "Fiction",
+    "cover_url": "https://books.google.com/books/content?id=77zjnZnigdsC&printsec=frontcover&img=1&zoom=1",
+    "metadata_url": "https://books.google.com/books/about/Interpreter_Of_Maladies.html?id=77zjnZnigdsC"
+  },
+  {
+    "id": "funny-you-should-ask",
+    "title": "Funny You Should Ask",
+    "author": "Elissa Sussman",
+    "category": "Fiction",
+    "cover_url": "https://covers.openlibrary.org/b/id/12725836-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL25490516W"
+  },
+  {
+    "id": "madonna-in-a-fur-coat",
+    "title": "Madonna in a Fur Coat",
+    "author": "Sabahattin Ali",
+    "category": "Fiction",
+    "cover_url": "https://covers.openlibrary.org/b/id/12762238-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL21145161W"
+  },
+  {
+    "id": "the-white-castle",
+    "title": "The White Castle",
+    "author": "Orhan Pamuk",
+    "category": "Fiction",
+    "cover_url": "https://images4.penguinrandomhouse.com/cover/9780375701610",
+    "metadata_url": "https://www.penguinrandomhouse.com/books/126394/the-white-castle-by-orhan-pamuk/"
+  },
+  {
+    "id": "my-name-is-red",
+    "title": "My Name Is Red",
+    "author": "Orhan Pamuk",
+    "category": "Fiction",
+    "cover_url": "https://images3.penguinrandomhouse.com/cover/9780375706851",
+    "metadata_url": "https://www.penguinrandomhouse.com/books/126388/my-name-is-red-by-orhan-pamuk/9780375706851/"
+  },
+  {
+    "id": "the-pilots-wife",
+    "title": "The Pilot’s Wife",
+    "author": "Anita Shreve",
+    "category": "Fiction",
+    "cover_url": "https://covers.openlibrary.org/b/id/1365560-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL116668W"
+  },
+  {
+    "id": "thinking-strategically",
+    "title": "Thinking Strategically",
+    "author": "Avinash K. Dixit and Barry J. Nalebuff",
+    "category": "Fiction",
+    "cover_url": "https://books.google.com/books/content?id=Fb39hy6e6KIC&printsec=frontcover&img=1&zoom=1",
+    "metadata_url": "https://books.google.com/books/about/Thinking_Strategically.html?id=Fb39hy6e6KIC"
+  },
+  {
+    "id": "the-museum-of-innocence",
+    "title": "The Museum of Innocence",
+    "author": "Orhan Pamuk",
+    "category": "Fiction",
+    "cover_url": "https://images3.penguinrandomhouse.com/cover/9780307386243",
+    "metadata_url": "https://www.penguinrandomhouse.com/books/126392/the-museum-of-innocence-by-orhan-pamuk/"
+  },
+  {
+    "id": "the-wall",
+    "title": "The Wall",
+    "author": "Jean-Paul Sartre",
+    "category": "Fiction",
+    "cover_url": "https://covers.openlibrary.org/b/id/893481-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL4489126W"
+  },
+  {
+    "id": "nana",
+    "title": "Nana",
+    "author": "Émile Zola",
+    "category": "Fiction",
+    "cover_url": "https://covers.openlibrary.org/b/id/8237804-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL118984W"
+  },
+  {
+    "id": "the-old-man-and-the-sea",
+    "title": "The Old Man and the Sea",
+    "author": "Ernest Hemingway",
+    "category": "Fiction",
+    "cover_url": "https://covers.openlibrary.org/b/id/463307-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL63073W"
+  },
+  {
+    "id": "anils-ghost",
+    "title": "Anil’s Ghost",
+    "author": "Michael Ondaatje",
+    "category": "Fiction",
+    "cover_url": "https://covers.openlibrary.org/b/id/4527709-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL53066W"
+  },
+  {
+    "id": "slaughterhouse-five",
+    "title": "Slaughterhouse-Five",
+    "author": "Kurt Vonnegut",
+    "category": "Fiction",
+    "cover_url": "https://covers.openlibrary.org/b/id/12727001-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL98459W"
+  },
+  {
+    "id": "analysis-i",
+    "title": "Analysis I",
+    "author": "Terence Tao",
+    "category": "Nonfiction",
+    "cover_url": "https://covers.openlibrary.org/b/id/8617298-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL8016096W"
+  },
+  {
+    "id": "all-the-bright-places",
+    "title": "All the Bright Places",
+    "author": "Jennifer Niven",
+    "category": "Fiction",
+    "cover_url": "https://covers.openlibrary.org/b/id/14559665-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL17323489W"
+  },
+  {
+    "id": "a-passage-north",
+    "title": "A Passage North",
+    "author": "Anuk Arudpragasam",
+    "category": "Fiction",
+    "cover_url": "https://covers.openlibrary.org/b/id/10530918-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL24134756W"
+  },
+  {
+    "id": "a-fine-balance",
+    "title": "A Fine Balance",
+    "author": "Rohinton Mistry",
+    "category": "Fiction",
+    "cover_url": "https://covers.openlibrary.org/b/id/8348310-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL2980902W"
+  },
+  {
+    "id": "the-wild-goose",
+    "title": "The Wild Goose",
+    "author": "Mori Ōgai",
+    "category": "Fiction",
+    "cover_url": "https://covers.openlibrary.org/b/id/3807763-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL2920580W"
+  },
+  {
+    "id": "sputnik-sweetheart",
+    "title": "Sputnik Sweetheart",
+    "author": "Haruki Murakami",
+    "category": "Fiction",
+    "cover_url": "https://covers.openlibrary.org/b/id/14766574-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL25122805W"
+  },
+  {
+    "id": "the-tyranny-of-merit",
+    "title": "The Tyranny of Merit",
+    "author": "Michael J. Sandel",
+    "category": "Nonfiction",
+    "cover_url": "https://covers.openlibrary.org/b/id/10431529-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL22063373W"
+  },
+  {
+    "id": "the-myth-of-sisyphus",
+    "title": "The Myth of Sisyphus",
+    "author": "Albert Camus",
+    "category": "Fiction",
+    "cover_url": "https://covers.openlibrary.org/b/id/12726570-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL1230690W"
+  },
+  {
+    "id": "wind-pinball",
+    "title": "Wind/Pinball",
+    "author": "Haruki Murakami",
+    "category": "Fiction",
+    "cover_url": "https://covers.openlibrary.org/b/id/15122409-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL44032079W"
+  },
+  {
+    "id": "crime-and-punishment",
+    "title": "Crime and Punishment",
+    "author": "Fyodor Dostoevsky",
+    "category": "Fiction",
+    "cover_url": "https://covers.openlibrary.org/b/id/13116014-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL32525579W"
+  },
+  {
+    "id": "the-heart-asks-pleasure-first",
+    "title": "The Heart Asks Pleasure First",
+    "author": "Karuna Ezara Parikh",
+    "category": "Fiction",
+    "cover_url": "https://covers.openlibrary.org/b/id/11248625-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL24589510W"
+  },
+  {
+    "id": "when-breath-becomes-air",
+    "title": "When Breath Becomes Air",
+    "author": "Paul Kalanithi",
+    "category": "Fiction",
+    "cover_url": "https://covers.openlibrary.org/b/id/11463139-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL17356252W"
+  },
+  {
+    "id": "why-i-am-a-hindu",
+    "title": "Why I Am a Hindu",
+    "author": "Shashi Tharoor",
+    "category": "Fiction",
+    "cover_url": "https://covers.openlibrary.org/b/id/9913009-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL20780131W"
+  },
+  {
+    "id": "pulp",
+    "title": "Pulp",
+    "author": "Charles Bukowski",
+    "category": "Fiction",
+    "cover_url": "https://covers.openlibrary.org/b/id/3871960-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL50450W"
+  },
+  {
+    "id": "the-catcher-in-the-rye",
+    "title": "The Catcher in the Rye",
+    "author": "J. D. Salinger",
+    "category": "Fiction",
+    "cover_url": "https://covers.openlibrary.org/b/id/9273490-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL3335245W"
+  },
+  {
+    "id": "les-miserables",
+    "title": "Les Misérables",
+    "author": "Victor Hugo",
+    "category": "Fiction",
+    "cover_url": "https://covers.openlibrary.org/b/id/12721865-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL1063588W"
+  },
+  {
+    "id": "mostly-harmless-econometrics",
+    "title": "Mostly Harmless Econometrics",
+    "author": "Joshua D. Angrist and Jörn-Steffen Pischke",
+    "category": "Nonfiction",
+    "cover_url": "https://covers.openlibrary.org/b/id/8250685-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL5889272W"
+  },
+  {
+    "id": "fooled-by-randomness",
+    "title": "Fooled by Randomness",
+    "author": "Nassim Nicholas Taleb",
+    "category": "Nonfiction",
+    "cover_url": "https://covers.openlibrary.org/b/id/855791-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL3295029W"
+  },
+  {
+    "id": "the-bell-jar",
+    "title": "The Bell Jar",
+    "author": "Sylvia Plath",
+    "category": "Fiction",
+    "cover_url": "https://covers.openlibrary.org/b/id/8477115-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL1865528W"
+  },
+  {
+    "id": "the-heart-is-a-lonely-hunter",
+    "title": "The Heart Is a Lonely Hunter",
+    "author": "Carson McCullers",
+    "category": "Fiction",
+    "cover_url": "https://covers.openlibrary.org/b/id/394799-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL11081469W"
+  },
+  {
+    "id": "nineteen-eighty-four",
+    "title": "Nineteen Eighty-Four",
+    "author": "George Orwell",
+    "category": "Fiction",
+    "cover_url": "https://covers.openlibrary.org/b/id/9267242-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL1168083W"
+  },
+  {
+    "id": "in-search-of-schrodingers-cat",
+    "title": "In Search of Schrödinger’s Cat",
+    "author": "John Gribbin",
+    "category": "Nonfiction",
+    "cover_url": "https://covers.openlibrary.org/b/id/4673056-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL7918929W"
+  },
+  {
+    "id": "rebel-sultans",
+    "title": "Rebel Sultans",
+    "author": "Manu S. Pillai",
+    "category": "Nonfiction",
+    "cover_url": "https://covers.openlibrary.org/b/id/10447794-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL22153432W"
+  },
+  {
+    "id": "the-english-patient",
+    "title": "The English Patient",
+    "author": "Michael Ondaatje",
+    "category": "Fiction",
+    "cover_url": "https://covers.openlibrary.org/b/id/417585-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL53071W"
+  },
+  {
+    "id": "the-ruby-circle",
+    "title": "The Ruby Circle",
+    "author": "Richelle Mead",
+    "category": "Fiction",
+    "cover_url": "https://covers.openlibrary.org/b/id/7804556-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL17551465W"
+  },
+  {
+    "id": "warlight",
+    "title": "Warlight",
+    "author": "Michael Ondaatje",
+    "category": "Fiction",
+    "cover_url": "https://covers.openlibrary.org/b/id/10451879-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL21195069W"
+  },
+  {
+    "id": "triumph-of-the-city",
+    "title": "Triumph of the City",
+    "author": "Edward Glaeser",
+    "category": "Nonfiction",
+    "cover_url": "https://covers.openlibrary.org/b/id/8675730-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL19873317W"
+  },
+  {
+    "id": "thinking-fast-and-slow",
+    "title": "Thinking, Fast and Slow",
+    "author": "Daniel Kahneman",
+    "category": "Nonfiction",
+    "cover_url": "https://covers.openlibrary.org/b/id/13290711-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL15992072W"
+  },
+  {
+    "id": "words",
+    "title": "Words",
+    "author": "Jean-Paul Sartre",
+    "category": "Nonfiction",
+    "cover_url": "https://covers.openlibrary.org/b/id/13189218-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL4489217W"
+  },
+  {
+    "id": "last-night-earth-poems",
+    "title": "The Last Night of the Earth Poems",
+    "author": "Charles Bukowski",
+    "category": "Poetry",
+    "cover_url": "https://covers.openlibrary.org/b/id/6411510-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL50434W"
+  },
+  {
+    "id": "heart-berries",
+    "title": "Heart Berries",
+    "author": "Terese Marie Mailhot",
+    "category": "Nonfiction",
+    "cover_url": "https://covers.openlibrary.org/b/id/10140153-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL19751292W"
+  },
+  {
+    "id": "russian-roulette",
+    "title": "Russian Roulette",
+    "author": "Michael Isikoff and David Corn",
+    "category": "Nonfiction",
+    "cover_url": "https://covers.openlibrary.org/b/id/8832062-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL19732647W"
+  },
+  {
+    "id": "poverty-and-famines",
+    "title": "Poverty and Famines",
+    "author": "Amartya Sen",
+    "category": "Nonfiction",
+    "cover_url": "https://covers.openlibrary.org/b/id/4366223-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL116532W"
+  },
+  {
+    "id": "factfulness",
+    "title": "Factfulness",
+    "author": "Hans Rosling, Ola Rosling, and Anna Rosling Rönnlund",
+    "category": "Nonfiction",
+    "cover_url": "https://covers.openlibrary.org/b/id/8186237-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL17877260W"
+  },
+  {
+    "id": "development-as-freedom",
+    "title": "Development as Freedom",
+    "author": "Amartya Sen",
+    "category": "Nonfiction",
+    "cover_url": "https://covers.openlibrary.org/b/id/120233-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL116534W"
+  },
+  {
+    "id": "predictably-irrational",
+    "title": "Predictably Irrational",
+    "author": "Dan Ariely",
+    "category": "Nonfiction",
+    "cover_url": "https://covers.openlibrary.org/b/id/2314080-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL9302660W"
+  },
+  {
+    "id": "the-waves",
+    "title": "The Waves",
+    "author": "Virginia Woolf",
+    "category": "Fiction",
+    "cover_url": "https://covers.openlibrary.org/b/id/119517-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL39316W"
+  },
+  {
+    "id": "one-hundred-years-solitude",
+    "title": "One Hundred Years of Solitude",
+    "author": "Gabriel García Márquez",
+    "category": "Fiction",
+    "cover_url": "https://covers.openlibrary.org/b/id/15185412-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL43108828W"
+  },
+  {
+    "id": "wuthering-heights",
+    "title": "Wuthering Heights",
+    "author": "Emily Brontë",
+    "category": "Fiction",
+    "cover_url": "https://covers.openlibrary.org/b/id/12818862-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL21177W"
+  },
+  {
+    "id": "handmaids-tale",
+    "title": "The Handmaid’s Tale",
+    "author": "Margaret Atwood",
+    "category": "Fiction",
+    "cover_url": "https://covers.openlibrary.org/b/id/8231851-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL675783W"
+  },
+  {
+    "id": "crisis-neoliberalism",
+    "title": "The Crisis of Neoliberalism",
+    "author": "Gérard Duménil and Dominique Lévy",
+    "category": "Nonfiction",
+    "cover_url": "https://covers.openlibrary.org/b/id/8481436-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL19364462W"
+  },
+  {
+    "id": "ministry-utmost-happiness",
+    "title": "The Ministry of Utmost Happiness",
+    "author": "Arundhati Roy",
+    "category": "Fiction",
+    "cover_url": "https://covers.openlibrary.org/b/id/8055065-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL17778666W"
+  },
+  {
+    "id": "a-passage-to-india",
+    "title": "A Passage to India",
+    "author": "E. M. Forster",
+    "category": "Fiction",
+    "cover_url": "https://covers.openlibrary.org/b/id/1921995-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL88809W"
+  },
+  {
+    "id": "selected-poems-neruda",
+    "title": "Selected Poems",
+    "author": "Pablo Neruda",
+    "category": "Poetry",
+    "cover_url": "https://covers.openlibrary.org/b/id/10632020-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL979875W"
+  },
+  {
+    "id": "jane-eyre",
+    "title": "Jane Eyre",
+    "author": "Charlotte Brontë",
+    "category": "Fiction",
+    "cover_url": "https://covers.openlibrary.org/b/id/8235363-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL1095427W"
+  },
+  {
+    "id": "shantaram",
+    "title": "Shantaram",
+    "author": "Gregory David Roberts",
+    "category": "Fiction",
+    "cover_url": "https://covers.openlibrary.org/b/id/6788945-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL5730814W"
+  },
+  {
+    "id": "of-mice-and-men",
+    "title": "Of Mice and Men",
+    "author": "John Steinbeck",
+    "category": "Fiction",
+    "cover_url": "https://covers.openlibrary.org/b/id/14319003-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL23204W"
+  },
+  {
+    "id": "the-secret-history",
+    "title": "The Secret History",
+    "author": "Donna Tartt",
+    "category": "Fiction",
+    "cover_url": "https://covers.openlibrary.org/b/id/744854-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL4321141W"
+  },
+  {
+    "id": "lincoln-in-the-bardo",
+    "title": "Lincoln in the Bardo",
+    "author": "George Saunders",
+    "category": "Fiction",
+    "cover_url": "https://covers.openlibrary.org/b/id/7909378-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL17635834W"
+  },
+  {
+    "id": "1q84",
+    "title": "1Q84",
+    "author": "Haruki Murakami",
+    "category": "Fiction",
+    "cover_url": "https://covers.openlibrary.org/b/id/11153243-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL15029001W"
+  },
+  {
+    "id": "india-after-gandhi",
+    "title": "India After Gandhi",
+    "author": "Ramachandra Guha",
+    "category": "Nonfiction",
+    "cover_url": "https://covers.openlibrary.org/b/id/6821235-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL15858520W"
+  },
+  {
+    "id": "come-on-in",
+    "title": "Come On In!",
+    "author": "Charles Bukowski",
+    "category": "Poetry",
+    "cover_url": "https://covers.openlibrary.org/b/id/30517-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL50441W"
+  },
+  {
+    "id": "twenty-love-poems",
+    "title": "Twenty Love Poems and a Song of Despair",
+    "author": "Pablo Neruda",
+    "category": "Poetry",
+    "cover_url": "https://covers.openlibrary.org/b/id/13642179-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL30526511W"
+  },
+  {
+    "id": "return-depression-economics",
+    "title": "The Return of Depression Economics",
+    "author": "Paul Krugman",
+    "category": "Nonfiction",
+    "cover_url": "https://covers.openlibrary.org/b/id/100706-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL1648174W"
+  },
+  {
+    "id": "selected-poetry-keats",
+    "title": "Selected Poetry",
+    "author": "John Keats",
+    "category": "Poetry",
+    "cover_url": "https://covers.openlibrary.org/b/id/119252-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL276770W"
+  },
+  {
+    "id": "call-me-by-your-name",
+    "title": "Call Me by Your Name",
+    "author": "André Aciman",
+    "category": "Fiction",
+    "cover_url": "https://covers.openlibrary.org/b/id/11123807-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL8034526W"
+  },
+  {
+    "id": "pax-indica",
+    "title": "Pax Indica",
+    "author": "Shashi Tharoor",
+    "category": "Nonfiction",
+    "cover_url": "https://covers.openlibrary.org/b/id/7237739-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL16794499W"
+  },
+  {
+    "id": "the-golden-gate",
+    "title": "The Golden Gate",
+    "author": "Vikram Seth",
+    "category": "Fiction",
+    "cover_url": "https://covers.openlibrary.org/b/id/378469-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL11927W"
+  },
+  {
+    "id": "lolita",
+    "title": "Lolita",
+    "author": "Vladimir Nabokov",
+    "category": "Fiction",
+    "cover_url": "https://covers.openlibrary.org/b/id/12984540-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL627084W"
+  },
+  {
+    "id": "nudge",
+    "title": "Nudge",
+    "author": "Richard H. Thaler and Cass R. Sunstein",
+    "category": "Nonfiction",
+    "cover_url": "https://covers.openlibrary.org/b/id/6402116-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL3936258W"
+  },
+  {
+    "id": "the-secret-garden",
+    "title": "The Secret Garden",
+    "author": "Frances Hodgson Burnett",
+    "category": "Fiction",
+    "cover_url": "https://covers.openlibrary.org/b/id/12622062-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL69612W"
+  },
+  {
+    "id": "the-great-gatsby",
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "category": "Fiction",
+    "cover_url": "https://covers.openlibrary.org/b/id/10590366-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL468431W"
+  },
+  {
+    "id": "third-girl",
+    "title": "Third Girl",
+    "author": "Agatha Christie",
+    "category": "Fiction",
+    "cover_url": "https://covers.openlibrary.org/b/id/14577913-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL472536W"
+  },
+  {
+    "id": "remains-of-the-day",
+    "title": "The Remains of the Day",
+    "author": "Kazuo Ishiguro",
+    "category": "Fiction",
+    "cover_url": "https://covers.openlibrary.org/b/id/95742-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL59048W"
+  },
+  {
+    "id": "murder-roger-ackroyd",
+    "title": "The Murder of Roger Ackroyd",
+    "author": "Agatha Christie",
+    "category": "Fiction",
+    "cover_url": "https://covers.openlibrary.org/b/id/13151356-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL471932W"
+  },
+  {
+    "id": "men-without-women",
+    "title": "Men Without Women",
+    "author": "Haruki Murakami",
+    "category": "Fiction",
+    "cover_url": "https://covers.openlibrary.org/b/id/13768905-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL34944508W"
+  },
+  {
+    "id": "love-is-a-dog-from-hell",
+    "title": "Love Is a Dog from Hell",
+    "author": "Charles Bukowski",
+    "category": "Poetry",
+    "cover_url": "https://covers.openlibrary.org/b/id/6617563-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL50443W"
+  },
+  {
+    "id": "all-light-cannot-see",
+    "title": "All the Light We Cannot See",
+    "author": "Anthony Doerr",
+    "category": "Fiction",
+    "cover_url": "https://covers.openlibrary.org/b/id/14559680-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL16821606W"
+  },
+  {
+    "id": "great-expectations",
+    "title": "Great Expectations",
+    "author": "Charles Dickens",
+    "category": "Fiction",
+    "cover_url": "https://covers.openlibrary.org/b/id/13322313-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL8721462W"
+  },
+  {
+    "id": "hunger-public-action",
+    "title": "Hunger and Public Action",
+    "author": "Jean Drèze and Amartya Sen",
+    "category": "Nonfiction",
+    "cover_url": "https://covers.openlibrary.org/b/id/4090307-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL1759860W"
+  },
+  {
+    "id": "india-economic-development",
+    "title": "India: Economic Development and Social Opportunity",
+    "author": "Jean Drèze and Amartya Sen",
+    "category": "Nonfiction",
+    "cover_url": "https://covers.openlibrary.org/b/id/1134042-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL1759862W"
   }
 ]
