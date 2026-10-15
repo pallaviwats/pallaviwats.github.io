@@ -98,13 +98,14 @@
   function render(){
     const width=innerWidth();if(width<150)return;lastWidth=width;
     root.style.setProperty('--sl-height',state.height+'px');
-    const count=width>=660?Math.max(3,Math.ceil(books.length*21/(width-10))):Math.ceil(books.length/Math.max(4,Math.floor((width-10)/34)));
+    const mobileSpineWidth=22;
+    const count=width>=660?Math.max(3,Math.ceil(books.length*21/(width-10))):Math.ceil(books.length/Math.max(4,Math.floor((width-10)/mobileSpineWidth)));
     const rows=splitRows(count);shelves.replaceChildren();
     rows.forEach((row,i)=>{
       const section=make('section','sl-row'),line=make('div','sl-line'),track=make('div','sl-track');
       section.append(line,make('div','sl-shelf'));shelves.append(section);
       track.style.setProperty('--duration',(145+i*11)+'s');track.style.setProperty('--phase',(-i*19)+'s');
-      const cycleWidth=Math.max(line.clientWidth,root.clientWidth<660?row.length*34+10:0);track.style.width=(cycleWidth*2)+'px';const available=cycleWidth-10,total=row.reduce((sum,b)=>sum+weight(b),0);
+      const cycleWidth=Math.max(line.clientWidth,root.clientWidth<660?row.length*mobileSpineWidth+10:0);track.style.width=(cycleWidth*2)+'px';const available=cycleWidth-10,total=row.reduce((sum,b)=>sum+weight(b),0);
       for(let copy=0;copy<2;copy++){
         const cycle=make('div','sl-cycle');cycle.style.flexBasis=cycleWidth+'px';cycle.style.width=cycleWidth+'px';if(copy)cycle.setAttribute('aria-hidden','true');
         for(const b of row)cycle.append(bookButton(b,available*weight(b)/total,copy===1));
