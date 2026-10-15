@@ -188,3 +188,6 @@
 #pw-white-bookcase .pw-refined-library .sl-detail .sl-cover-link { display:block; }
 #pw-white-bookcase .pw-refined-library .sl-book,#pw-white-bookcase .pw-refined-library .sl-close { cursor:pointer; }
 @media(max-width:680px) { .academic-library#main { padding:32px 12px 48px; } }
+
+/* Keep front-cover lettering out of the spine label area. */
+#pw-white-bookcase .pw-refined-library .sl-skin > .sl-texture { display:none; }
