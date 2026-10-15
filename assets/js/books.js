@@ -19,7 +19,7 @@
   const authorMeasure=document.createElement('canvas').getContext('2d');authorMeasure.font='7px Arial';
   const make=(tag,cls,text)=>{const e=document.createElement(tag);if(cls)e.className=cls;if(text!==undefined)e.textContent=text;return e;};
 
-  function shortTitle(b){return b.title;}
+  function shortTitle(b){return b.id==='colorless-tsukuru'?'Colorless Tsukuru Tazaki':b.title;}
   function boundaries(){
     const forbidden=new Set();
     for(let i=1;i<19;i++)forbidden.add(i);
