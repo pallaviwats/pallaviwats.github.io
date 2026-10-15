@@ -526,14 +526,6 @@
     "metadata_url": "https://openlibrary.org/works/OL98459W"
   },
   {
-    "id": "analysis-i",
-    "title": "Analysis I",
-    "author": "Terence Tao",
-    "category": "Nonfiction",
-    "cover_url": "https://covers.openlibrary.org/b/id/8617298-L.jpg",
-    "metadata_url": "https://openlibrary.org/works/OL8016096W"
-  },
-  {
     "id": "all-the-bright-places",
     "title": "All the Bright Places",
     "author": "Jennifer Niven",
@@ -652,14 +644,6 @@
     "category": "Fiction",
     "cover_url": "https://covers.openlibrary.org/b/id/12721865-L.jpg",
     "metadata_url": "https://openlibrary.org/works/OL1063588W"
-  },
-  {
-    "id": "mostly-harmless-econometrics",
-    "title": "Mostly Harmless Econometrics",
-    "author": "Joshua D. Angrist and Jörn-Steffen Pischke",
-    "category": "Nonfiction",
-    "cover_url": "https://covers.openlibrary.org/b/id/8250685-L.jpg",
-    "metadata_url": "https://openlibrary.org/works/OL5889272W"
   },
   {
     "id": "fooled-by-randomness",
