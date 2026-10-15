@@ -359,7 +359,9 @@ html {
   color: var(--academic-muted);
   font-size: 16px;
   line-height: 1.8;
-  text-align: left;
+  text-align: justify;
+  text-align-last: left;
+  text-justify: inter-word;
 }
 
 /* Future research plots can use this class without adding an empty placeholder. */
