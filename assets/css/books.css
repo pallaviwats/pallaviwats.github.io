@@ -3,7 +3,7 @@
 .academic-library#main { max-width:1180px; padding:48px 28px 68px; }
 #pw-white-bookcase .pw-refined-library {
   --sl-burgundy:#800000;
-  --sl-height:206px;
+  --sl-height:220px;
   width:100%;
   padding:0;
   background:#fff;
@@ -110,7 +110,7 @@
   writing-mode:horizontal-tb;
   white-space:nowrap;
   text-align:left;
-  font:500 var(--ts,11.3px)/1.45 var(--book-font,Arial,sans-serif);
+  font:500 var(--ts,8.5px)/1.45 var(--book-font,Arial,sans-serif);
   font-kerning:normal;
   letter-spacing:normal;
 }
@@ -128,7 +128,7 @@
   flex:none;
   margin-left:auto;
   white-space:nowrap;
-  font:.68em/1.45 Arial,sans-serif;
+  font:.78em/1.45 Arial,sans-serif;
   letter-spacing:normal;
   opacity:.85;
 }
@@ -203,3 +203,15 @@
   #pw-white-bookcase .sl-detail p { font-size:13px; }
 }
 @media(prefers-reduced-motion:reduce) { #pw-white-bookcase .sl-object { transition:none; } }
+
+/* Slow shelf motion; each spine stays straight and keeps its own label. */
+#pw-white-bookcase .sl-line { overflow:hidden; }
+#pw-white-bookcase .sl-track { animation:pw-spine-drift var(--duration,145s) linear infinite; animation-delay:var(--phase,0s); will-change:transform; }
+#pw-white-bookcase .sl-row:nth-child(even) .sl-track { animation-direction:reverse; }
+#pw-white-bookcase .sl-row:hover .sl-track,
+#pw-white-bookcase .pw-refined-library.sl-still .sl-track { animation-play-state:paused; }
+#pw-white-bookcase .sl-line:has(.sl-book:focus-visible) .sl-track { animation:none; transform:none; }
+@keyframes pw-spine-drift { from { transform:translateX(0); } to { transform:translateX(-50%); } }
+@media(prefers-reduced-motion:reduce) { #pw-white-bookcase .sl-track { animation:none; } }
+
+@media(prefers-reduced-motion:reduce) { #pw-white-bookcase .sl-line { overflow-x:auto; } }

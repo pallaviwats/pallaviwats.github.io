@@ -14,7 +14,7 @@
   ];
   const groupNames=['Morisaki Bookshop','Harry Potter','Twilight','Vampire Academy','Bloodlines'];
   const series=new Map();groups.forEach((ids,i)=>ids.forEach((id,n)=>series.set(id,{name:groupNames[i],number:n+1,total:ids.length})));
-  const state={height:206,selected:null};
+  const state={height:220,selected:null};
   const shelves=root.querySelector('.sl-shelves');
   const make=(tag,cls,text)=>{const e=document.createElement(tag);if(cls)e.className=cls;if(text!==undefined)e.textContent=text;return e;};
 
@@ -40,12 +40,12 @@
     return cuts.slice(0,-1).map((start,i)=>books.slice(start,cuts[i+1]));
   }
   function weight(b){let hash=0;for(const c of b.id)hash=(hash+c.charCodeAt(0))%17;if(b.id==='war-and-peace'||b.id==='a-little-life')return 1.46;if(b.title.length>65)return 1.55;if(b.title.length>35)return 1.3;if(b.id.startsWith('harry-potter'))return 1.25;if(series.has(b.id))return 1.05;return .78+hash*.034;}
-  function bookButton(b,width){
+  function bookButton(b,width,mirror=false){
     const i=books.indexOf(b),g=series.get(b.id);
-    const button=make('button','sl-book cursor-interaction');
-    button.type='button';
+    const button=make(mirror?'span':'button','sl-book cursor-interaction');
+    if(mirror)button.setAttribute('aria-hidden','true');else button.type='button';
     button.dataset.bookId=b.id;
-    button.dataset.baseHeight=String(state.height*(.92+(i*7%9)/100));
+    button.dataset.baseHeight=String(state.height+(i*3%5)-2);
     button.dataset.showAuthor=String(b.title.length<=20);
     button.classList.toggle('sl-title-only',button.dataset.showAuthor!=='true');
     button.classList.toggle('sl-hindi',/[\u0900-\u097f]/.test(b.title));
@@ -57,7 +57,7 @@
     button.style.setProperty('--tone',b.tone);
     button.style.setProperty('--ink',b.ink);
     button.style.setProperty('--book-font',i%4===0?'Georgia,serif':'Arial,sans-serif');
-    button.style.setProperty('--ts',(b.title.length<20?11.3:10.2)+'px');
+    button.style.setProperty('--ts','8.5px');
     const object=make('span','sl-object');
     object.setAttribute('aria-hidden','true');
     const skin=make('span','sl-skin');
@@ -94,13 +94,9 @@
       if(!fits()&&!button.classList.contains('sl-title-only')){
         button.classList.add('sl-title-only');
       }
-      while(!fits()&&size>9){
-        size=Math.max(9,size-.2);
+      while(!fits()&&size>6){
+        size=Math.max(6,size-.1);
         applySize();
-      }
-      if(label.scrollWidth>label.clientWidth+.5){
-        const neededHeight=Math.ceil(label.scrollWidth)+44;
-        button.style.setProperty('--bh',Math.max(Number(button.dataset.baseHeight),neededHeight)+'px');
       }
     });
   }
@@ -116,20 +112,26 @@
       Math.ceil(books.length/Math.max(4,Math.floor((width-10)/(minSpine+gap))));
     const rows=splitRows(count);
     shelves.replaceChildren();
-    rows.forEach(row=>{
+    rows.forEach((row,i)=>{
       const section=make('section','sl-row'),line=make('div','sl-line'),track=make('div','sl-track');
       line.setAttribute('tabindex','0');
       line.setAttribute('aria-label','Book shelf; scroll horizontally if needed');
       section.append(line,make('div','sl-shelf'));
       shelves.append(section);
       const cycleWidth=Math.max(line.clientWidth,row.length*minSpine+gap*(row.length-1)+10);
-      const cycle=make('div','sl-cycle');
-      cycle.style.width=cycleWidth+'px';
+      track.style.width=(cycleWidth*2)+'px';
+      track.style.setProperty('--duration',(145+i*11)+'s');
+      track.style.setProperty('--phase',(-i*19)+'s');
       const available=cycleWidth-10-gap*(row.length-1);
       const extra=Math.max(0,available-row.length*minSpine);
       const total=row.reduce((sum,b)=>sum+weight(b),0);
-      for(const b of row)cycle.append(bookButton(b,minSpine+extra*weight(b)/total));
-      track.append(cycle);
+      for(let copy=0;copy<2;copy++){
+        const cycle=make('div','sl-cycle');
+        cycle.style.width=cycleWidth+'px';
+        if(copy)cycle.setAttribute('aria-hidden','true');
+        for(const b of row)cycle.append(bookButton(b,minSpine+extra*weight(b)/total,copy===1));
+        track.append(cycle);
+      }
       line.append(track);
     });
     updateDetails();
