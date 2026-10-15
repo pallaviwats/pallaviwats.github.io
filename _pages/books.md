@@ -1,6 +1,6 @@
 ---
 layout: academic
-title: "Books"
+title: "Bookshelf"
 permalink: /books/
 hide_title: true
 main_class: academic-library
