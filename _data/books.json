@@ -222,12 +222,76 @@
     "metadata_url": "https://www.penguinrandomhouse.com/books/746554/the-city-and-its-uncertain-walls-by-haruki-murakami/9780593687840/"
   },
   {
+    "id": "bloodlines",
+    "title": "Bloodlines",
+    "author": "Richelle Mead",
+    "category": "Fiction",
+    "cover_url": "https://images1.penguinrandomhouse.com/cover/9781595144737",
+    "metadata_url": "https://www.penguinrandomhouse.com/books/306179/bloodlines-by-richelle-mead/9781595144737/"
+  },
+  {
+    "id": "the-golden-lily",
+    "title": "The Golden Lily",
+    "author": "Richelle Mead",
+    "category": "Fiction",
+    "cover_url": "https://images1.penguinrandomhouse.com/cover/9781595146021",
+    "metadata_url": "https://www.penguinrandomhouse.com/books/306181/the-golden-lily-by-richelle-mead/"
+  },
+  {
     "id": "the-indigo-spell",
     "title": "The Indigo Spell",
     "author": "Richelle Mead",
     "category": "Fiction",
     "cover_url": "https://images2.penguinrandomhouse.com/cover/9781595146137",
     "metadata_url": "https://www.penguinrandomhouse.com/books/306234/the-indigo-spell-by-richelle-mead/"
+  },
+  {
+    "id": "the-fiery-heart",
+    "title": "The Fiery Heart",
+    "author": "Richelle Mead",
+    "category": "Fiction",
+    "cover_url": "https://images1.penguinrandomhouse.com/cover/9781595146311",
+    "metadata_url": "https://www.penguinrandomhouse.com/books/306247/the-fiery-heart-by-richelle-mead/"
+  },
+  {
+    "id": "silver-shadows",
+    "title": "Silver Shadows",
+    "author": "Richelle Mead",
+    "category": "Fiction",
+    "cover_url": "https://images1.penguinrandomhouse.com/cover/9781595146328",
+    "metadata_url": "https://www.penguinrandomhouse.com/books/263146/silver-shadows-by-richelle-mead/"
+  },
+  {
+    "id": "the-ruby-circle",
+    "title": "The Ruby Circle",
+    "author": "Richelle Mead",
+    "category": "Fiction",
+    "cover_url": "https://covers.openlibrary.org/b/id/7804556-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL17551465W"
+  },
+  {
+    "id": "vampire-academy",
+    "title": "Vampire Academy",
+    "author": "Richelle Mead",
+    "category": "Fiction",
+    "cover_url": "https://images1.penguinrandomhouse.com/cover/9781595141743",
+    "metadata_url": "https://www.penguinrandomhouse.com/books/301428/vampire-academy-by-richelle-mead/"
+  },
+  {
+    "id": "frostbite",
+    "title": "Frostbite",
+    "author": "Richelle Mead",
+    "category": "Fiction",
+    "cover_url": "https://images1.penguinrandomhouse.com/cover/9781595141750",
+    "metadata_url": "https://www.penguinrandomhouse.com/books/301429/frostbite-by-richelle-mead/paperback/"
+  },
+  {
+    "id": "shadow-kiss",
+    "title": "Shadow Kiss",
+    "author": "Richelle Mead",
+    "category": "Fiction",
+    "cover_url": "https://images1.penguinrandomhouse.com/cover/9781595141972",
+    "metadata_url": "https://www.penguinrandomhouse.com/books/303489/shadow-kiss-by-richelle-mead/ebook/"
   },
   {
     "id": "blood-promise",
@@ -350,6 +414,14 @@
     "metadata_url": "https://archipelagobooks.org/book/the-pastor/"
   },
   {
+    "id": "patjhad",
+    "title": "पतझड़",
+    "author": "Manav Kaul",
+    "category": "Fiction",
+    "cover_url": "https://bookkish.com/cdn/shop/files/Patjhad_Hindi_manav_kaul.jpg?v=1752751188",
+    "metadata_url": "https://koha.iitbbs.ac.in/bib/13962"
+  },
+  {
     "id": "the-wind-up-bird-chronicle",
     "title": "The Wind-Up Bird Chronicle",
     "author": "Haruki Murakami",
@@ -372,6 +444,14 @@
     "category": "Fiction",
     "cover_url": "https://images1.penguinrandomhouse.com/cover/9780141393391",
     "metadata_url": "https://www.penguinrandomhouse.com/books/286385/frankenstein-by-mary-shelley-edited-with-an-introduction-and-notes-by-maurice-hindle-cover-illustration-by-coralie-bickford-smith/"
+  },
+  {
+    "id": "poems-of-tennyson",
+    "title": "Poems of Tennyson",
+    "author": "Alfred, Lord Tennyson",
+    "category": "Poetry",
+    "cover_url": "https://books.google.com/books/content?id=MidxjwEACAAJ&printsec=frontcover&img=1&zoom=1",
+    "metadata_url": "https://books.google.com/books?id=MidxjwEACAAJ"
   },
   {
     "id": "butter",
@@ -438,6 +518,14 @@
     "metadata_url": "https://openlibrary.org/works/OL25490516W"
   },
   {
+    "id": "antima",
+    "title": "अंतिमा",
+    "author": "Manav Kaul",
+    "category": "Fiction",
+    "cover_url": "https://static.wixstatic.com/media/11ac81_57db18c94ec64f649a431684ba69b528~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+    "metadata_url": "https://www.anubhavpublishing.com/product-page/antima-%E0%A4%85-%E0%A4%A4-%E0%A4%AE-paperback-by-manav-kaul"
+  },
+  {
     "id": "madonna-in-a-fur-coat",
     "title": "Madonna in a Fur Coat",
     "author": "Sabahattin Ali",
@@ -460,6 +548,14 @@
     "category": "Fiction",
     "cover_url": "https://images3.penguinrandomhouse.com/cover/9780375706851",
     "metadata_url": "https://www.penguinrandomhouse.com/books/126388/my-name-is-red-by-orhan-pamuk/9780375706851/"
+  },
+  {
+    "id": "the-book-of-everlasting-things",
+    "title": "The Book of Everlasting Things",
+    "author": "Aanchal Malhotra",
+    "category": "Fiction",
+    "cover_url": "https://books.google.com/books/content?id=plmVEAAAQBAJ&printsec=frontcover&img=1&zoom=1",
+    "metadata_url": "https://us.macmillan.com/books/9781250802019/thebookofeverlastingthings/"
   },
   {
     "id": "the-pilots-wife",
@@ -486,6 +582,14 @@
     "metadata_url": "https://www.penguinrandomhouse.com/books/126392/the-museum-of-innocence-by-orhan-pamuk/"
   },
   {
+    "id": "the-gift",
+    "title": "The Gift",
+    "author": "Vladimir Nabokov",
+    "category": "Fiction",
+    "cover_url": "https://images1.penguinrandomhouse.com/cover/9780679727255",
+    "metadata_url": "https://www.penguinrandomhouse.com/books/119460/the-gift-by-vladimir-nabokov/"
+  },
+  {
     "id": "the-wall",
     "title": "The Wall",
     "author": "Jean-Paul Sartre",
@@ -510,6 +614,14 @@
     "metadata_url": "https://openlibrary.org/works/OL63073W"
   },
   {
+    "id": "the-courage-to-act",
+    "title": "The Courage to Act",
+    "author": "Ben S. Bernanke",
+    "category": "Fiction",
+    "cover_url": "https://cdn2.wwnorton.com/wwnproducts/TRADE/3/1/9780393247213/9780393247213_300.jpeg",
+    "metadata_url": "https://wwnorton.co.uk/books/9780393247213-the-courage-to-act"
+  },
+  {
     "id": "anils-ghost",
     "title": "Anil’s Ghost",
     "author": "Michael Ondaatje",
@@ -518,12 +630,60 @@
     "metadata_url": "https://openlibrary.org/works/OL53066W"
   },
   {
+    "id": "the-education-of-yuri",
+    "title": "The Education of Yuri",
+    "author": "Jerry Pinto",
+    "category": "Fiction",
+    "cover_url": "https://speakingtigerbooks.com/wp-content/uploads/2022/08/The-Education-of-Yuri_Front-Cover.jpg",
+    "metadata_url": "https://speakingtigerbooks.com/product/the-education-of-yuri/"
+  },
+  {
     "id": "slaughterhouse-five",
     "title": "Slaughterhouse-Five",
     "author": "Kurt Vonnegut",
     "category": "Fiction",
     "cover_url": "https://covers.openlibrary.org/b/id/12727001-L.jpg",
     "metadata_url": "https://openlibrary.org/works/OL98459W"
+  },
+  {
+    "id": "south-of-the-border-west-of-the-sun",
+    "title": "South of the Border, West of the Sun",
+    "author": "Haruki Murakami",
+    "category": "Fiction",
+    "cover_url": "https://images1.penguinrandomhouse.com/cover/9780679767398",
+    "metadata_url": "https://www.penguinrandomhouse.com/books/118724/south-of-the-border-west-of-the-sun-by-haruki-murakami/"
+  },
+  {
+    "id": "colossus-the-anatomy-of-delhi",
+    "title": "Colossus: The Anatomy of Delhi",
+    "author": "Sanjoy Chakravorty and Neelanjan Sircar (eds.)",
+    "category": "Nonfiction",
+    "cover_url": "https://books.google.com/books/content?id=ihA5EAAAQBAJ&printsec=frontcover&img=1&zoom=1",
+    "metadata_url": "https://books.google.com/books?id=ihA5EAAAQBAJ"
+  },
+  {
+    "id": "in-the-language-of-remembering",
+    "title": "In the Language of Remembering",
+    "author": "Aanchal Malhotra",
+    "category": "Nonfiction",
+    "cover_url": "https://aanchalmalhotra.com/wp-content/uploads/2022/04/In-the-Language-of-Remembering_cover.jpg",
+    "metadata_url": "https://www.aanchalmalhotra.com/writing-inthelanguageofremembering/"
+  },
+  {
+    "id": "the-burden-of-democracy",
+    "title": "The Burden of Democracy",
+    "author": "Pratap Bhanu Mehta",
+    "category": "Nonfiction",
+    "cover_url": "https://cdn.penguin.co.in/wp-content/uploads/2021/12/9780143441038.jpg",
+    "metadata_url": "https://www.penguin.co.in/book/the-burden-of-democracy/"
+  },
+  {
+    "id": "the-housekeeper-and-the-professor",
+    "title": "The Housekeeper and the Professor",
+    "author": "Yoko Ogawa",
+    "category": "Fiction",
+    "cover_url": "https://images1.penguinrandomhouse.com/cover/9780099521341",
+    "metadata_url": "https://www.penguinrandomhouse.co.za/product/housekeeper-and-the-professor-5515072/"
   },
   {
     "id": "all-the-bright-places",
@@ -558,6 +718,30 @@
     "metadata_url": "https://openlibrary.org/works/OL2920580W"
   },
   {
+    "id": "kimi-ni-todoke-1",
+    "title": "Kimi ni Todoke: From Me to You, Vol. 1",
+    "author": "Karuho Shiina",
+    "category": "Manga",
+    "cover_url": "https://dw9to29mmj727.cloudfront.net/products/1421527553.jpg",
+    "metadata_url": "https://www.viz.com/manga-books/manga/kimi-ni-todoke-from-me-to-you-volume-1/product/2112"
+  },
+  {
+    "id": "monthly-girls-nozaki-kun-1",
+    "title": "Monthly Girls’ Nozaki-kun, Vol. 1",
+    "author": "Izumi Tsubaki",
+    "category": "Manga",
+    "cover_url": "https://images.yenpress.com/imgs/9780316309479.jpg?w=408&h=612&type=books&s=c562df84636de9f9bbb2452193960c98",
+    "metadata_url": "https://yenpress.com/titles/9780316309479-monthly-girls-nozaki-kun-vol-1"
+  },
+  {
+    "id": "tokyo-ghoul-1",
+    "title": "Tokyo Ghoul, Vol. 1",
+    "author": "Sui Ishida",
+    "category": "Manga",
+    "cover_url": "https://dw9to29mmj727.cloudfront.net/products/1421580365.jpg",
+    "metadata_url": "https://www.viz.com/manga-books/manga/tokyo-ghoul-volume-1-0/product/3689"
+  },
+  {
     "id": "sputnik-sweetheart",
     "title": "Sputnik Sweetheart",
     "author": "Haruki Murakami",
@@ -574,6 +758,14 @@
     "metadata_url": "https://openlibrary.org/works/OL22063373W"
   },
   {
+    "id": "why-nations-fail",
+    "title": "Why Nations Fail",
+    "author": "Daron Acemoglu and James A. Robinson",
+    "category": "Nonfiction",
+    "cover_url": "https://images1.penguinrandomhouse.com/cover/9780307719225",
+    "metadata_url": "https://www.penguinrandomhouse.com/books/205014/why-nations-fail-by-daron-acemoglu-and-james-a-robinson/"
+  },
+  {
     "id": "the-myth-of-sisyphus",
     "title": "The Myth of Sisyphus",
     "author": "Albert Camus",
@@ -588,6 +780,22 @@
     "category": "Fiction",
     "cover_url": "https://covers.openlibrary.org/b/id/15122409-L.jpg",
     "metadata_url": "https://openlibrary.org/works/OL44032079W"
+  },
+  {
+    "id": "kafka-on-the-shore",
+    "title": "Kafka on the Shore",
+    "author": "Haruki Murakami",
+    "category": "Fiction",
+    "cover_url": "https://images1.penguinrandomhouse.com/cover/9781400079278",
+    "metadata_url": "https://www.penguinrandomhouse.com/books/118718/kafka-on-the-shore-by-haruki-murakami/9781400079278/"
+  },
+  {
+    "id": "the-unbearable-lightness-of-being",
+    "title": "The Unbearable Lightness of Being",
+    "author": "Milan Kundera",
+    "category": "Fiction",
+    "cover_url": "https://www.faber.co.uk/wp-content/uploads/2024/12/Unbearable-Lightness-of-Being.jpg",
+    "metadata_url": "https://www.faber.co.uk/product/9780571135394-the-unbearable-lightness-of-being/"
   },
   {
     "id": "crime-and-punishment",
@@ -622,20 +830,20 @@
     "metadata_url": "https://openlibrary.org/works/OL20780131W"
   },
   {
-    "id": "pulp",
-    "title": "Pulp",
-    "author": "Charles Bukowski",
-    "category": "Fiction",
-    "cover_url": "https://covers.openlibrary.org/b/id/3871960-L.jpg",
-    "metadata_url": "https://openlibrary.org/works/OL50450W"
-  },
-  {
     "id": "the-catcher-in-the-rye",
     "title": "The Catcher in the Rye",
     "author": "J. D. Salinger",
     "category": "Fiction",
     "cover_url": "https://covers.openlibrary.org/b/id/9273490-L.jpg",
     "metadata_url": "https://openlibrary.org/works/OL3335245W"
+  },
+  {
+    "id": "india-transformed",
+    "title": "India Transformed",
+    "author": "Rakesh Mohan (ed.)",
+    "category": "Nonfiction",
+    "cover_url": "https://cdn.penguin.co.in/wp-content/uploads/2021/12/9780143446767.jpg",
+    "metadata_url": "https://www.penguin.co.in/book/india-transformed-2/"
   },
   {
     "id": "les-miserables",
@@ -670,6 +878,14 @@
     "metadata_url": "https://openlibrary.org/works/OL11081469W"
   },
   {
+    "id": "choices",
+    "title": "Choices: Inside the Making of India’s Foreign Policy",
+    "author": "Shivshankar Menon",
+    "category": "Nonfiction",
+    "cover_url": "https://www.brookings.edu/wp-content/uploads/2016/07/menon_choicesmenon_choices.jpg",
+    "metadata_url": "https://www.brookings.edu/books/choices/"
+  },
+  {
     "id": "nineteen-eighty-four",
     "title": "Nineteen Eighty-Four",
     "author": "George Orwell",
@@ -694,6 +910,22 @@
     "metadata_url": "https://openlibrary.org/works/OL22153432W"
   },
   {
+    "id": "the-third-pillar",
+    "title": "The Third Pillar",
+    "author": "Raghuram G. Rajan",
+    "category": "Nonfiction",
+    "cover_url": "https://images1.penguinrandomhouse.com/cover/9780525558330",
+    "metadata_url": "https://www.penguinrandomhouse.com/books/566369/the-third-pillar-by-raghuram-rajan/"
+  },
+  {
+    "id": "the-rss",
+    "title": "The RSS: Roadmaps for the 21st Century",
+    "author": "Sunil Ambekar",
+    "category": "Nonfiction",
+    "cover_url": "https://books.google.com/books/content?id=zakKywEACAAJ&printsec=frontcover&img=1&zoom=1",
+    "metadata_url": "https://books.google.com/books?id=zakKywEACAAJ"
+  },
+  {
     "id": "the-english-patient",
     "title": "The English Patient",
     "author": "Michael Ondaatje",
@@ -702,12 +934,12 @@
     "metadata_url": "https://openlibrary.org/works/OL53071W"
   },
   {
-    "id": "the-ruby-circle",
-    "title": "The Ruby Circle",
-    "author": "Richelle Mead",
+    "id": "tumhare-baare-mein",
+    "title": "तुम्हारे बारे में (Tumhare Baare Mein)",
+    "author": "Manav Kaul",
     "category": "Fiction",
-    "cover_url": "https://covers.openlibrary.org/b/id/7804556-L.jpg",
-    "metadata_url": "https://openlibrary.org/works/OL17551465W"
+    "cover_url": "https://static.wixstatic.com/media/11ac81_8b9967069995440293a5d2af0de721a7~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+    "metadata_url": "https://www.anubhavpublishing.com/product-page/tumhare-baare-mein-paperback-by-manav-kaul"
   },
   {
     "id": "warlight",
@@ -726,6 +958,14 @@
     "metadata_url": "https://openlibrary.org/works/OL19873317W"
   },
   {
+    "id": "accidental-india",
+    "title": "Accidental India",
+    "author": "Shankkar Aiyar",
+    "category": "Nonfiction",
+    "cover_url": "https://books.google.com/books/content?id=F7hLmwEACAAJ&printsec=frontcover&img=1&zoom=1",
+    "metadata_url": "https://books.google.com/books?id=F7hLmwEACAAJ"
+  },
+  {
     "id": "thinking-fast-and-slow",
     "title": "Thinking, Fast and Slow",
     "author": "Daniel Kahneman",
@@ -742,12 +982,20 @@
     "metadata_url": "https://openlibrary.org/works/OL4489217W"
   },
   {
-    "id": "last-night-earth-poems",
-    "title": "The Last Night of the Earth Poems",
-    "author": "Charles Bukowski",
-    "category": "Poetry",
-    "cover_url": "https://covers.openlibrary.org/b/id/6411510-L.jpg",
-    "metadata_url": "https://openlibrary.org/works/OL50434W"
+    "id": "the-outsider",
+    "title": "The Outsider",
+    "author": "Albert Camus",
+    "category": "Fiction",
+    "cover_url": "https://cdn.penguin.co.uk/dam-assets/books/9780241458853/9780241458853-jacket-large.jpg",
+    "metadata_url": "https://www.penguin.co.uk/books/182322/the-outsider-by-camus-albert/9780241458853"
+  },
+  {
+    "id": "colorless-tsukuru",
+    "title": "Colorless Tsukuru Tazaki and His Years of Pilgrimage",
+    "author": "Haruki Murakami",
+    "category": "Fiction",
+    "cover_url": "https://images1.penguinrandomhouse.com/cover/9780804170123",
+    "metadata_url": "https://www.penguinrandomhouse.com/books/235276/colorless-tsukuru-tazaki-and-his-years-of-pilgrimage-by-haruki-murakami/9780804170123/"
   },
   {
     "id": "heart-berries",
@@ -766,6 +1014,14 @@
     "metadata_url": "https://openlibrary.org/works/OL19732647W"
   },
   {
+    "id": "ignorance",
+    "title": "Ignorance",
+    "author": "Milan Kundera",
+    "category": "Fiction",
+    "cover_url": "https://www.faber.co.uk/wp-content/uploads/2025/02/Ignorance.jpg",
+    "metadata_url": "https://www.faber.co.uk/product/9780571215515-ignorance/"
+  },
+  {
     "id": "poverty-and-famines",
     "title": "Poverty and Famines",
     "author": "Amartya Sen",
@@ -780,6 +1036,14 @@
     "category": "Nonfiction",
     "cover_url": "https://covers.openlibrary.org/b/id/8186237-L.jpg",
     "metadata_url": "https://openlibrary.org/works/OL17877260W"
+  },
+  {
+    "id": "footprints-of-partition",
+    "title": "The Footprints of Partition",
+    "author": "Anam Zakaria",
+    "category": "Nonfiction",
+    "cover_url": "https://books.google.com/books/content?id=dZ9LDQAAQBAJ&printsec=frontcover&img=1&zoom=1",
+    "metadata_url": "https://books.google.com/books?id=dZ9LDQAAQBAJ"
   },
   {
     "id": "development-as-freedom",
@@ -830,12 +1094,36 @@
     "metadata_url": "https://openlibrary.org/works/OL675783W"
   },
   {
+    "id": "violence-quest-justice",
+    "title": "Violence and the Quest for Justice in South Asia",
+    "author": "Deepak Mehta and Rahul Roy (eds.)",
+    "category": "Nonfiction",
+    "cover_url": "https://books.google.com/books/content?id=zw1FDwAAQBAJ&printsec=frontcover&img=1&zoom=1",
+    "metadata_url": "https://books.google.com/books?id=zw1FDwAAQBAJ"
+  },
+  {
+    "id": "battles-half-won",
+    "title": "Battles Half Won: India’s Improbable Democracy",
+    "author": "Ashutosh Varshney",
+    "category": "Nonfiction",
+    "cover_url": "https://cdn.penguin.co.in/wp-content/uploads/2021/12/9780143423515.jpg",
+    "metadata_url": "https://www.penguin.co.in/book/battles-half-won/"
+  },
+  {
     "id": "crisis-neoliberalism",
     "title": "The Crisis of Neoliberalism",
     "author": "Gérard Duménil and Dominique Lévy",
     "category": "Nonfiction",
     "cover_url": "https://covers.openlibrary.org/b/id/8481436-L.jpg",
     "metadata_url": "https://openlibrary.org/works/OL19364462W"
+  },
+  {
+    "id": "new-dialectic-marxs-capital",
+    "title": "The New Dialectic and Marx’s Capital",
+    "author": "Christopher J. Arthur",
+    "category": "Nonfiction",
+    "cover_url": "https://www.historicalmaterialism.org/wp-content/uploads/2016/10/Screenshot-2024-07-23-215519-11.png",
+    "metadata_url": "https://www.historicalmaterialism.org/book-series/the-new-dialectic-and-marxs-capital-pb/"
   },
   {
     "id": "ministry-utmost-happiness",
@@ -846,6 +1134,14 @@
     "metadata_url": "https://openlibrary.org/works/OL17778666W"
   },
   {
+    "id": "life-is-elsewhere",
+    "title": "Life Is Elsewhere",
+    "author": "Milan Kundera",
+    "category": "Fiction",
+    "cover_url": "https://www.faber.co.uk/wp-content/uploads/2021/09/9780571197774.jpg",
+    "metadata_url": "https://www.faber.co.uk/product/9780571197774-life-is-elsewhere/"
+  },
+  {
     "id": "a-passage-to-india",
     "title": "A Passage to India",
     "author": "E. M. Forster",
@@ -854,12 +1150,12 @@
     "metadata_url": "https://openlibrary.org/works/OL88809W"
   },
   {
-    "id": "selected-poems-neruda",
-    "title": "Selected Poems",
-    "author": "Pablo Neruda",
-    "category": "Poetry",
-    "cover_url": "https://covers.openlibrary.org/b/id/10632020-L.jpg",
-    "metadata_url": "https://openlibrary.org/works/OL979875W"
+    "id": "kitne-pakistan",
+    "title": "कितने पाकिस्तान (Kitne Pakistan)",
+    "author": "Kamleshwar",
+    "category": "Fiction",
+    "cover_url": "https://covers.openlibrary.org/b/isbn/8170283205-L.jpg",
+    "metadata_url": "https://libraryopac.ignou.ac.in/cgi-bin/koha/opac-detail.pl?biblionumber=155554"
   },
   {
     "id": "jane-eyre",
@@ -868,6 +1164,14 @@
     "category": "Fiction",
     "cover_url": "https://covers.openlibrary.org/b/id/8235363-L.jpg",
     "metadata_url": "https://openlibrary.org/works/OL1095427W"
+  },
+  {
+    "id": "the-joke",
+    "title": "The Joke",
+    "author": "Milan Kundera",
+    "category": "Fiction",
+    "cover_url": "https://www.faber.co.uk/wp-content/uploads/2021/09/9780571166930.jpg",
+    "metadata_url": "https://www.faber.co.uk/product/9780571166930-the-joke/"
   },
   {
     "id": "shantaram",
@@ -918,20 +1222,12 @@
     "metadata_url": "https://openlibrary.org/works/OL15858520W"
   },
   {
-    "id": "come-on-in",
-    "title": "Come On In!",
-    "author": "Charles Bukowski",
+    "id": "best-urdu-poetry",
+    "title": "Celebrating the Best of Urdu Poetry",
+    "author": "Khushwant Singh and Kamna Prasad (eds.)",
     "category": "Poetry",
-    "cover_url": "https://covers.openlibrary.org/b/id/30517-L.jpg",
-    "metadata_url": "https://openlibrary.org/works/OL50441W"
-  },
-  {
-    "id": "twenty-love-poems",
-    "title": "Twenty Love Poems and a Song of Despair",
-    "author": "Pablo Neruda",
-    "category": "Poetry",
-    "cover_url": "https://covers.openlibrary.org/b/id/13642179-L.jpg",
-    "metadata_url": "https://openlibrary.org/works/OL30526511W"
+    "cover_url": "https://books.google.com/books/content?id=m5fvswEACAAJ&printsec=frontcover&img=1&zoom=1",
+    "metadata_url": "https://books.google.com/books?id=m5fvswEACAAJ"
   },
   {
     "id": "return-depression-economics",
@@ -1038,12 +1334,12 @@
     "metadata_url": "https://openlibrary.org/works/OL34944508W"
   },
   {
-    "id": "love-is-a-dog-from-hell",
-    "title": "Love Is a Dog from Hell",
-    "author": "Charles Bukowski",
-    "category": "Poetry",
-    "cover_url": "https://covers.openlibrary.org/b/id/6617563-L.jpg",
-    "metadata_url": "https://openlibrary.org/works/OL50443W"
+    "id": "death-ivan-ilyich",
+    "title": "The Death of Ivan Ilyich and Other Stories",
+    "author": "Leo Tolstoy",
+    "category": "Fiction",
+    "cover_url": "https://images1.penguinrandomhouse.com/cover/9780451532176",
+    "metadata_url": "https://www.penguinrandomhouse.com/books/310780/the-death-of-ivan-ilych-and-other-stories-by-leo-tolstoy/"
   },
   {
     "id": "all-light-cannot-see",
@@ -1076,5 +1372,134 @@
     "category": "Nonfiction",
     "cover_url": "https://covers.openlibrary.org/b/id/1134042-L.jpg",
     "metadata_url": "https://openlibrary.org/works/OL1759862W"
+  },
+  {
+    "id": "remnants-of-separation",
+    "title": "Remnants of a Separation",
+    "author": "Aanchal Malhotra",
+    "category": "Nonfiction",
+    "cover_url": "https://books.google.com/books/content?id=3hUwDwAAQBAJ&printsec=frontcover&img=1&zoom=1",
+    "metadata_url": "https://books.google.com/books?id=3hUwDwAAQBAJ"
+  },
+  {
+    "id": "simon-homo-sapiens-agenda",
+    "title": "Simon vs. the Homo Sapiens Agenda",
+    "author": "Becky Albertalli",
+    "category": "Fiction",
+    "cover_url": "https://covers.openlibrary.org/b/id/12303551-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL17357353W"
+  },
+  {
+    "id": "best-of-faiz",
+    "title": "Best of Faiz: Selected Poetry of Faiz Ahmed Faiz",
+    "author": "Faiz Ahmed Faiz",
+    "translator": "Shiv Kumar Kumar",
+    "category": "Poetry",
+    "cover_url": "https://books.google.com/books/content?id=78hjAAAAMAAJ&printsec=frontcover&img=1&zoom=1",
+    "metadata_url": "https://books.google.com/books?id=78hjAAAAMAAJ"
+  },
+  {
+    "id": "harry-potter-philosophers-stone",
+    "title": "Harry Potter and the Philosopher’s Stone",
+    "author": "J. K. Rowling",
+    "category": "Fiction",
+    "cover_url": "https://covers.openlibrary.org/b/id/15155833-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL82563W"
+  },
+  {
+    "id": "harry-potter-chamber-of-secrets",
+    "title": "Harry Potter and the Chamber of Secrets",
+    "author": "J. K. Rowling",
+    "category": "Fiction",
+    "cover_url": "https://covers.openlibrary.org/b/id/15158664-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL82537W"
+  },
+  {
+    "id": "harry-potter-prisoner-of-azkaban",
+    "title": "Harry Potter and the Prisoner of Azkaban",
+    "author": "J. K. Rowling",
+    "category": "Fiction",
+    "cover_url": "https://covers.openlibrary.org/b/id/10580435-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL82536W"
+  },
+  {
+    "id": "harry-potter-goblet-of-fire",
+    "title": "Harry Potter and the Goblet of Fire",
+    "author": "J. K. Rowling",
+    "category": "Fiction",
+    "cover_url": "https://covers.openlibrary.org/b/id/12059372-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL82560W"
+  },
+  {
+    "id": "harry-potter-order-of-the-phoenix",
+    "title": "Harry Potter and the Order of the Phoenix",
+    "author": "J. K. Rowling",
+    "category": "Fiction",
+    "cover_url": "https://covers.openlibrary.org/b/id/15158666-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL82548W"
+  },
+  {
+    "id": "harry-potter-half-blood-prince",
+    "title": "Harry Potter and the Half-Blood Prince",
+    "author": "J. K. Rowling",
+    "category": "Fiction",
+    "cover_url": "https://covers.openlibrary.org/b/id/10716273-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL82565W"
+  },
+  {
+    "id": "harry-potter-deathly-hallows",
+    "title": "Harry Potter and the Deathly Hallows",
+    "author": "J. K. Rowling",
+    "category": "Fiction",
+    "cover_url": "https://covers.openlibrary.org/b/id/15158660-L.jpg",
+    "metadata_url": "https://openlibrary.org/works/OL82586W"
+  },
+  {
+    "id": "inferno",
+    "title": "Inferno",
+    "author": "Dan Brown",
+    "category": "Fiction",
+    "cover_url": "https://images1.penguinrandomhouse.com/cover/9780804172264",
+    "metadata_url": "https://www.penguinrandomhouse.com/books/227777/inferno-by-dan-brown/"
+  },
+  {
+    "id": "war-and-peace",
+    "title": "War and Peace",
+    "author": "Leo Tolstoy",
+    "category": "Fiction",
+    "cover_url": "https://images1.penguinrandomhouse.com/cover/9781400079988",
+    "metadata_url": "https://www.penguinrandomhouse.com/books/208646/war-and-peace-by-leo-tolstoy-a-new-translation-by-richard-pevear-and-larissa-volokhonsky/9781400079988/"
+  },
+  {
+    "id": "twilight",
+    "title": "Twilight",
+    "author": "Stephenie Meyer",
+    "category": "Fiction",
+    "cover_url": "https://www.hachettebookgroup.com/wp-content/uploads/2018/12/97803161601791.jpg",
+    "metadata_url": "https://www.hachettebookgroup.com/titles/stephenie-meyer/twilight/9780316160179/"
+  },
+  {
+    "id": "new-moon",
+    "title": "New Moon",
+    "author": "Stephenie Meyer",
+    "category": "Fiction",
+    "cover_url": "https://www.hachettebookgroup.com/wp-content/uploads/2025/12/9780316007726.jpg",
+    "metadata_url": "https://www.hachettebookgroup.com/titles/stephenie-meyer/new-moon/9780316007726/"
+  },
+  {
+    "id": "eclipse",
+    "title": "Eclipse",
+    "author": "Stephenie Meyer",
+    "category": "Fiction",
+    "cover_url": "https://www.hachettebookgroup.com/wp-content/uploads/2017/06/9780316160209.jpg",
+    "metadata_url": "https://www.hachettebookgroup.com/titles/stephenie-meyer/eclipse/9780316160209/"
+  },
+  {
+    "id": "breaking-dawn",
+    "title": "Breaking Dawn",
+    "author": "Stephenie Meyer",
+    "category": "Fiction",
+    "cover_url": "https://www.hachettebookgroup.com/wp-content/uploads/2025/12/9780316328326.jpg",
+    "metadata_url": "https://www.hachettebookgroup.com/titles/stephenie-meyer/breaking-dawn/9780316328326/"
   }
 ]
