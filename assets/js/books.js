@@ -98,7 +98,8 @@
   function render(){
     const width=innerWidth();if(width<150)return;lastWidth=width;
     root.style.setProperty('--sl-height',state.height+'px');
-    const mobileSpineWidth=22;
+    const mobileSpineWidth=16;
+    root.classList.toggle('sl-mobile-spines',width<660);
     const count=width>=660?Math.max(3,Math.ceil(books.length*21/(width-10))):Math.ceil(books.length/Math.max(4,Math.floor((width-10)/mobileSpineWidth)));
     const rows=splitRows(count);shelves.replaceChildren();
     rows.forEach((row,i)=>{

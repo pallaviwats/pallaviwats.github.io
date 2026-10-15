@@ -210,3 +210,9 @@
 #pw-white-bookcase .pw-refined-library .sl-hindi .sl-title,
 #pw-white-bookcase .pw-refined-library .sl-hindi .sl-title-text { line-height:1.6; }
 #pw-white-bookcase .pw-refined-library .sl-author { padding-inline:1px; line-height:1.5; }
+
+/* Keep lettering inside the slimmer phone spines. */
+#pw-white-bookcase .pw-refined-library.sl-mobile-spines .sl-title {
+  left:calc(100% - 1.5px);
+  height:calc(var(--bw) - 3px);
+}
