@@ -1,6 +1,7 @@
 ---
 layout: academic
 title: "CV"
+hide_title: true
 permalink: /cv/
 author_profile: true
 redirect_from:
