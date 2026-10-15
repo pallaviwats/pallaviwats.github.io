@@ -16,7 +16,8 @@
   const series=new Map();groups.forEach((ids,i)=>ids.forEach((id,n)=>series.set(id,{name:groupNames[i],number:n+1,total:ids.length})));
   const state={height:206,selected:null};
   const shelves=root.querySelector('.sl-shelves');
-  const authorMeasure=document.createElement('canvas').getContext('2d');authorMeasure.font='7px Arial';
+  const authorMeasure=document.createElement('canvas').getContext('2d');authorMeasure.font='6px Arial';
+  const labelMeasure=document.createElement('canvas').getContext('2d');
   const make=(tag,cls,text)=>{const e=document.createElement(tag);if(cls)e.className=cls;if(text!==undefined)e.textContent=text;return e;};
 
   function shortTitle(b){return b.id==='colorless-tsukuru'?'Colorless Tsukuru Tazaki':b.title;}
@@ -45,29 +46,49 @@
   function detail(b){const box=make('div','sl-detail');box.setAttribute('role','region');box.setAttribute('aria-live','polite');box.setAttribute('aria-label',b.title+' details');const close=make('button','sl-close cursor-interaction','×');close.type='button';close.setAttribute('aria-label','Close details');close.addEventListener('click',()=>{const previous=state.selected;state.selected=null;updateDetails();shelves.querySelector('[data-book-id="'+previous+'"]')?.focus();});box.append(close);if(b.image){const cover=make('a','sl-cover-link cursor-interaction');cover.href=b.cover_url;cover.target='_blank';cover.rel='noopener noreferrer';cover.setAttribute('aria-label','Open full-size cover of '+b.title);const img=make('img');img.src=b.cover_url;img.decoding='async';img.alt=b.title+' front cover';cover.append(img);box.append(cover);}const info=make('div');const heading=make('h2');const titleLink=make('a','sl-title-link cursor-interaction',b.title);titleLink.href=b.metadata_url;titleLink.target='_blank';titleLink.rel='noopener noreferrer';titleLink.setAttribute('aria-label','More about '+b.title);heading.append(titleLink);info.append(heading,make('p',null,b.author));if(b.id==='a-little-life')info.append(make('p','reading-status','Currently reading'));const g=series.get(b.id);if(g)info.append(make('p','sl-meta',g.name+' · Book '+g.number+' of '+g.total));if(b.translator)info.append(make('p','sl-meta','Translated by '+b.translator));box.append(info);return box;}
   function updateDetails(){syncMotion();shelves.querySelectorAll('.sl-detail').forEach(e=>e.remove());shelves.querySelectorAll('[data-book-id]').forEach(e=>e.setAttribute('aria-expanded',String(state.selected===e.dataset.bookId)));if(state.selected){const button=shelves.querySelector('[data-book-id="'+state.selected+'"]');button?.closest('.sl-row').append(detail(byId.get(state.selected)));}fitSpineLabels();}
   function fitSpineLabels(){
+    const metricsCache=new Map();
+    const ink=element=>{
+      const style=getComputedStyle(element);
+      const font=[style.fontStyle,style.fontWeight,style.fontSize,style.fontFamily].join(' ');
+      const key=font+'|'+element.textContent;
+      if(metricsCache.has(key))return metricsCache.get(key);
+      labelMeasure.font=font;
+      const measured=labelMeasure.measureText(element.textContent);
+      const size=parseFloat(style.fontSize)||8;
+      const metrics={
+        width:Math.max(measured.width,(measured.actualBoundingBoxLeft||0)+(measured.actualBoundingBoxRight||0)),
+        height:(measured.actualBoundingBoxAscent||size*.8)+(measured.actualBoundingBoxDescent||size*.2)
+      };
+      metricsCache.set(key,metrics);
+      return metrics;
+    };
     shelves.querySelectorAll('.sl-book').forEach(button=>{
       const title=button.querySelector('.sl-title');
       const text=button.querySelector('.sl-title-text');
-      const preferred=parseFloat(button.style.getPropertyValue('--ts'))||10.2;
+      const author=button.querySelector('.sl-author');
+      const preferred=parseFloat(button.style.getPropertyValue('--ts'))||8;
       let size=preferred;
       const applySize=()=>{title.style.fontSize=size+'px';};
-      const fits=()=>text.scrollHeight<=title.clientHeight+.5&&text.scrollWidth<=title.clientWidth+.5;
-      const shrinkTo=minimum=>{
-        while(!fits()&&size>minimum){
-          size=Math.max(minimum,size-.2);
-          applySize();
-        }
+      const fitsTitle=()=>{
+        const glyphs=ink(text);
+        return text.scrollHeight<=title.clientHeight+.5&&text.scrollWidth<=title.clientWidth+.5&&
+          glyphs.width+2<=title.clientWidth&&glyphs.height+2<=title.clientHeight;
+      };
+      const fitsAuthor=()=>{
+        const glyphs=ink(author);
+        return author.scrollWidth<=author.clientWidth+.5&&author.scrollHeight<=author.clientHeight+.5&&
+          glyphs.width+2<=author.clientWidth&&glyphs.height+2<=author.clientHeight;
       };
       applySize();
-      if(!button.classList.contains('sl-title-only')){
-        shrinkTo(8.5);
-        if(!fits()){
-          button.classList.add('sl-title-only');
-          size=preferred;
-          applySize();
-        }
+      if(!button.classList.contains('sl-title-only')&&(!fitsAuthor()||!fitsTitle())){
+        button.classList.add('sl-title-only');
       }
-      shrinkTo(5);
+      while(!fitsTitle()&&size>5){
+        size=Math.max(5,size-.1);
+        applySize();
+      }
+      button.dataset.labelFit=String(fitsTitle()&&
+        (button.classList.contains('sl-title-only')||fitsAuthor()));
     });
   }
 
@@ -93,7 +114,7 @@
     });
     updateDetails();
   }
-  render();document.fonts?.ready.then(()=>fitSpineLabels());new ResizeObserver(()=>{if(Math.abs(innerWidth()-lastWidth)>2)render();}).observe(shelves);
+  render();document.fonts?.ready.then(()=>fitSpineLabels());document.fonts?.addEventListener('loadingdone',fitSpineLabels);window.addEventListener('pageshow',fitSpineLabels);new ResizeObserver(()=>{if(Math.abs(innerWidth()-lastWidth)>2)render();}).observe(shelves);
   });
 })();
 

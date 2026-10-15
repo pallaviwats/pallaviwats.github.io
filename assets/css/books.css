@@ -199,3 +199,14 @@
 #pw-white-bookcase .finish-white .sl-row { margin-bottom:12px; padding-top:4px; }
 #pw-white-bookcase .finish-white .sl-row:first-child { padding-top:0; }
 #pw-white-bookcase .finish-white .sl-row:last-child { margin-bottom:0; }
+
+/* Leave room for every glyph while preserving the approved book geometry. */
+#pw-white-bookcase .pw-refined-library .sl-title { line-height:1.4; overflow:visible; }
+#pw-white-bookcase .pw-refined-library .sl-title-text {
+  padding-inline:1px;
+  line-height:1.4;
+  overflow:visible;
+}
+#pw-white-bookcase .pw-refined-library .sl-hindi .sl-title,
+#pw-white-bookcase .pw-refined-library .sl-hindi .sl-title-text { line-height:1.6; }
+#pw-white-bookcase .pw-refined-library .sl-author { padding-inline:1px; line-height:1.5; }
