@@ -48,11 +48,26 @@
     shelves.querySelectorAll('.sl-book').forEach(button=>{
       const title=button.querySelector('.sl-title');
       const text=button.querySelector('.sl-title-text');
-      let size=parseFloat(button.style.getPropertyValue('--ts'))||10.2;
-      title.style.fontSize=size+'px';
+      const preferred=parseFloat(button.style.getPropertyValue('--ts'))||10.2;
+      let size=preferred;
+      const applySize=()=>{title.style.fontSize=size+'px';};
       const fits=()=>text.scrollHeight<=title.clientHeight+.5&&text.scrollWidth<=title.clientWidth+.5;
-      if(!fits())button.classList.add('sl-title-only');
-      while(!fits()&&size>6.5){size=Math.max(6.5,size-.25);title.style.fontSize=size+'px';}
+      const shrinkTo=minimum=>{
+        while(!fits()&&size>minimum){
+          size=Math.max(minimum,size-.2);
+          applySize();
+        }
+      };
+      applySize();
+      if(!button.classList.contains('sl-title-only')){
+        shrinkTo(8.5);
+        if(!fits()){
+          button.classList.add('sl-title-only');
+          size=preferred;
+          applySize();
+        }
+      }
+      shrinkTo(5);
     });
   }
 
