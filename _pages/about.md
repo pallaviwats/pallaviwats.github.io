@@ -34,6 +34,6 @@ blogger-color: "#F37100"
   </div>
   <div>
     <p class="academic-bio">I am a PhD candidate in Economics at the <a href="https://economics.virginia.edu/">University of Virginia</a>. My research interests are in labor economics and empirical industrial organization.</p>
-    <p class="academic-bio">My research focuses on high-skilled immigration. I study how <span class="academic-keep-together">third-party</span> staffing intermediaries and employer market power in the <span class="academic-keep-together">H-1B</span> program shape wages and the allocation of workers across firms, and what this implies for the design of immigration policy.</p>
+    <p class="academic-bio">My work focuses on high-skilled immigration. I study how <span class="academic-keep-together">third-party</span> staffing intermediaries and employer market power in the <span class="academic-keep-together">H-1B</span> program shape wages and the allocation of workers across firms, and what this implies for the design of immigration policy.</p>
   </div>
 </div>
