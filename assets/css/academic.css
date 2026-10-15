@@ -156,7 +156,7 @@ html {
 }
 
 .academic-home#main {
-  max-width: 1000px;
+  max-width: 920px;
   padding: 68px 32px 72px;
 }
 
@@ -166,7 +166,7 @@ html {
   margin-inline: auto;
   grid-template-columns: 260px minmax(0, 1fr);
   align-items: start;
-  gap: 48px;
+  gap: 44px;
 }
 
 .academic-portrait {
@@ -232,6 +232,10 @@ html {
   hyphens: none;
   word-break: normal;
   overflow-wrap: normal;
+}
+
+.academic-bio .academic-keep-together {
+  white-space: nowrap;
 }
 
 .academic-content .academic-research-lead {
