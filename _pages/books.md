@@ -2,26 +2,19 @@
 layout: academic
 title: "Books"
 permalink: /books/
+hide_title: true
+main_class: academic-library
 ---
 
-<section class="books-library" aria-label="My bookshelf">
-  <p class="books-intro">Books I’ve read, collected over the years.</p>
-  <div class="books-toolbar" data-books-controls hidden>
-    <label class="books-search-label" for="books-search">Search the shelf</label>
-    <input id="books-search" class="books-search" type="search" placeholder="Title or author" autocomplete="off" aria-controls="books-grid">
-    <span class="books-count" data-books-count aria-live="polite">{{ site.data.books.size }} books</span>
+<link rel="stylesheet" href="{{ '/assets/css/books.css' | relative_url }}?v={{ site.time | date: '%s' }}">
+<div id="pw-white-bookcase" aria-label="My bookshelf">
+  <div id="pw-white-library" class="pw-refined-library finish-white" data-finish="white">
+    <header class="sl-intro"><h1>A few books from different seasons of my life</h1></header>
+    <div class="sl-shelves" aria-label="Book shelves"></div>
+    <noscript>
+      <ol>{% for book in site.data.books %}<li><a href="{{ book.metadata_url | escape }}">{{ book.title }}</a> — {{ book.author }}</li>{% endfor %}</ol>
+    </noscript>
   </div>
-  <div class="books-grid" id="books-grid">
-    {% for book in site.data.books %}
-    <article class="book-card" data-book-title="{{ book.title | escape }}" data-book-author="{{ book.author | escape }}">
-      <a class="book-cover-link" href="{{ book.metadata_url | escape }}" target="_blank" rel="noopener noreferrer" aria-label="{{ book.title | escape }} by {{ book.author | escape }} — book information">
-        <img class="book-cover" src="{{ book.cover_url | escape }}" alt="" width="170" height="255" loading="lazy" decoding="async">
-      </a>
-      <h2 class="book-title"><a href="{{ book.metadata_url | escape }}" target="_blank" rel="noopener noreferrer">{{ book.title }}</a></h2>
-      <p class="book-author">{{ book.author }}</p>
-    </article>
-    {% endfor %}
-  </div>
-  <p class="books-no-results" data-books-empty hidden>No books found. Try another title or author.</p>
-</section>
+</div>
+<script id="pw-white-book-data" type="application/json">{{ site.data.books | jsonify }}</script>
 <script src="{{ '/assets/js/books.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>

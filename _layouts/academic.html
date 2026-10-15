@@ -13,8 +13,8 @@ layout: compress
     <a class="academic-skip-link" href="#main">Skip to content</a>
     {% include academic-navigation.html %}
 
-    <main id="main" class="academic-page{% if page.url == '/' %} academic-home{% endif %}">
-      {% if page.title and page.title != '' %}
+    <main id="main" class="academic-page{% if page.url == '/' %} academic-home{% endif %}{% if page.main_class %} {{ page.main_class }}{% endif %}">
+      {% if page.title and page.title != '' and page.hide_title != true %}
         <header class="academic-page-header">
           <h1>{{ page.title }}</h1>
           {% if page.collection == 'posts' %}
