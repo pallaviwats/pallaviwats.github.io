@@ -2,10 +2,11 @@
 layout: academic
 permalink: /research/
 title: "Research"
+hide_title: true
 ---
 
 <section aria-labelledby="working-papers">
-  <h2 id="working-papers" class="research-section-title">Working Papers</h2>
+  <h1 id="working-papers" class="research-section-title">Working Papers</h1>
 
   <article class="research-paper" id="outsourcing-talent">
     <h3 class="paper-title">Outsourcing Talent: Inside the High-Skilled Immigration Market</h3>
