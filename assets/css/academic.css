@@ -8,7 +8,7 @@ html {
 .academic-site {
   --academic-ink: #25323b;
   --academic-muted: #4d5962;
-  --academic-accent: #7a3e48;
+  --academic-accent: #800000;
   --academic-award: #756b65;
   --academic-rule: #dce5e4;
   margin: 0;
@@ -156,19 +156,17 @@ html {
 }
 
 .academic-home#main {
-  max-width: none;
-  padding-top: 76px;
-  padding-left: max(32px, calc((100% - 900px) / 2));
-  padding-right: 24px;
+  max-width: 1000px;
+  padding: 68px 32px 72px;
 }
 
 .academic-intro {
   display: grid;
   max-width: none;
-  margin-inline: 0;
+  margin-inline: auto;
   grid-template-columns: 260px minmax(0, 1fr);
   align-items: start;
-  gap: 20px;
+  gap: 48px;
 }
 
 .academic-portrait {

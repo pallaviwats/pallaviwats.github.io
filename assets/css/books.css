@@ -2,7 +2,7 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500&family=Noto+Serif+Devanagari:wght@400;500&display=swap");
 
-  #pw-white-bookcase .pw-refined-library { --sl-burgundy:#7a3e48; --sl-height:224px; background:#fff; color:#282725; width:100%; padding:38px 20px 34px; box-sizing:border-box; font:14px/1.5 Arial,sans-serif; }
+  #pw-white-bookcase .pw-refined-library { --sl-burgundy:#800000; --sl-height:224px; background:#fff; color:#282725; width:100%; padding:38px 20px 34px; box-sizing:border-box; font:14px/1.5 Arial,sans-serif; }
   #pw-white-bookcase .pw-refined-library * { box-sizing:border-box; }
   #pw-white-bookcase .pw-refined-library .sl-intro { text-align:center; padding:12px 14px 48px; }
   #pw-white-bookcase .pw-refined-library h1 { max-width:820px; margin:0 auto 24px; font:italic 400 47px/1.14 Georgia,'Times New Roman',serif; letter-spacing:-1.6px; text-wrap:balance; }
@@ -145,7 +145,7 @@
 }
 #pw-white-bookcase .pw-refined-library .sl-detail .reading-status {
   margin:13px 0 0;
-  color:#7a3e48;
+  color:#800000;
   font-size:12px;
   letter-spacing:.2px;
 }
