@@ -16,6 +16,25 @@
   const series=new Map();groups.forEach((ids,i)=>ids.forEach((id,n)=>series.set(id,{name:groupNames[i],number:n+1,total:ids.length})));
   const state={height:206,selected:null};
   const shelves=root.querySelector('.sl-shelves');
+  const readingCat=root.querySelector('.sl-reading-cat');
+  const currentPanel=root.querySelector('.sl-current-panel');
+  const closeCurrent=root.querySelector('.sl-current-close');
+  if(readingCat&&currentPanel&&closeCurrent){
+    const setCurrentOpen=open=>{
+      currentPanel.hidden=!open;
+      readingCat.setAttribute('aria-expanded',String(open));
+    };
+    readingCat.hidden=false;
+    readingCat.addEventListener('click',event=>{
+      const open=currentPanel.hidden;
+      setCurrentOpen(open);
+      if(open&&event.detail===0)closeCurrent.focus({preventScroll:true});
+    });
+    closeCurrent.addEventListener('click',()=>{setCurrentOpen(false);readingCat.focus();});
+    root.addEventListener('keydown',event=>{
+      if(event.key==='Escape'&&!currentPanel.hidden){setCurrentOpen(false);readingCat.focus();}
+    });
+  }
   const authorMeasure=document.createElement('canvas').getContext('2d');authorMeasure.font='6px Arial';
   const labelMeasure=document.createElement('canvas').getContext('2d');
   const make=(tag,cls,text)=>{const e=document.createElement(tag);if(cls)e.className=cls;if(text!==undefined)e.textContent=text;return e;};
@@ -119,5 +138,6 @@
   render();document.fonts?.ready.then(()=>fitSpineLabels());document.fonts?.addEventListener('loadingdone',fitSpineLabels);window.addEventListener('pageshow',fitSpineLabels);new ResizeObserver(()=>{if(Math.abs(innerWidth()-lastWidth)>2)render();}).observe(shelves);
   });
 })();
+
 
 
