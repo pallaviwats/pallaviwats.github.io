@@ -24,7 +24,7 @@ main_class: academic-library
     </div>
     <div class="sl-bookcase-wrap">
       <button type="button" class="sl-reading-cat" aria-label="Currently reading: A Little Life" aria-expanded="false" aria-controls="pw-current-reading-panel" hidden>
-        <img src="{{ '/assets/images/reading-cat.png' | relative_url }}" alt="" width="112" height="56" draggable="false">
+        <img src="{{ '/assets/images/reading-cat-a-little-life.png' | relative_url }}" alt="" width="112" height="56" draggable="false">
       </button>
       <div class="sl-shelves" aria-label="Book shelves"></div>
     </div>
