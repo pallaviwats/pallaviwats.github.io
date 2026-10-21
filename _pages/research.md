@@ -16,7 +16,7 @@ hide_title: true
         </ul>
     <details class="paper-abstract">
       <summary>Abstract</summary>
-      <p>U.S. firms hire high-skilled immigrants through the H-1B visa program, which allocates a fixed number of visas each year by lottery. When firms lose access to direct H-1B hiring, they may shift labor demand toward third-party staffing intermediaries. I study this response by linking firm-level lottery outcomes to detailed visa application data. I show that firms constrained by the lottery reallocate labor demand toward outsourcing firms. I then develop a structural model in which workers sort across employers, firms hire in stages, and intermediaries allocate labor across client firms. I use the model to study how alternative visa and intermediary regulations redistribute gains and losses across foreign-born workers, native workers, outsourcing firms, and U.S. firms.</p>
+      <p> </p>
     </details>
   </article>
 
