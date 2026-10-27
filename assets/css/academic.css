@@ -641,3 +641,10 @@ html {
   border-bottom: 1px solid var(--academic-rule);
   text-align: left;
 }
+
+/* Align this paper's coauthors with the right edge of the research column. */
+#scale-and-substitution .paper-title > br { display:none; }
+#scale-and-substitution .paper-coauthors {
+  display:block;
+  text-align:right;
+}
