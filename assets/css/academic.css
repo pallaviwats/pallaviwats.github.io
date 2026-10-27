@@ -237,9 +237,9 @@ html {
 .academic-home .academic-bio {
   margin-bottom: 20px;
   line-height: 1.65;
-  text-align: left;
-  text-align-last: auto;
-  text-justify: auto;
+  text-align: justify;
+  text-align-last: left;
+  text-justify: inter-word;
 }
 
 .academic-home .academic-bio:last-child {
