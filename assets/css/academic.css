@@ -235,9 +235,9 @@ html {
 }
 
 .academic-home .academic-bio {
-  max-width: 492px;
+  max-width: none;
   margin-bottom: 20px;
-  line-height: 1.65;
+  line-height: 1.6;
   text-align: justify;
   text-align-last: left;
   text-justify: inter-word;
