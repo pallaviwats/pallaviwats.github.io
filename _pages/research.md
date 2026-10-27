@@ -33,6 +33,6 @@ hide_title: true
   <h1 id="work-in-progress" class="research-section-title">Work in Progress</h1>
 
   <article class="research-paper" id="scale-and-substitution">
-    <h3 class="paper-title">Scale and Substitution: AI in Global Value Chains<br><span class="paper-coauthors"><span class="coauthor-with">(with </span><a href="https://gauravchiplunkar.com" target="_blank" rel="noopener noreferrer">Gaurav Chiplunkar</a>, <a href="https://www.jonahrexer.com/" target="_blank" rel="noopener noreferrer">Jonah M. Rexer</a>, <a href="https://blogs.worldbank.org/en/team/s/siddharth-sharma" target="_blank" rel="noopener noreferrer">Siddharth Sharma</a>)</span></h3>
+    <h3 class="paper-title">Scale and Substitution: AI in Global Value Chains <span class="paper-coauthors"><span class="coauthor-with">(with </span><a href="https://gauravchiplunkar.com" target="_blank" rel="noopener noreferrer">Gaurav Chiplunkar</a>, <a href="https://www.jonahrexer.com/" target="_blank" rel="noopener noreferrer">Jonah M. Rexer</a>, <a href="https://blogs.worldbank.org/en/team/s/siddharth-sharma" target="_blank" rel="noopener noreferrer">Siddharth Sharma</a>)</span></h3>
   </article>
 </section>

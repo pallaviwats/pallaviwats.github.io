@@ -642,13 +642,6 @@ html {
   text-align: left;
 }
 
-/* Align this paper's coauthors with the right edge of the research column. */
-#scale-and-substitution .paper-title > br { display:none; }
-#scale-and-substitution .paper-coauthors {
-  display:block;
-  text-align:right;
-}
-
 /* Give the next research section a little more breathing room. */
 .academic-content section[aria-labelledby="work-in-progress"] {
   margin-top:24px;
