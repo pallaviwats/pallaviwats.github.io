@@ -648,3 +648,8 @@ html {
   display:block;
   text-align:right;
 }
+
+/* Give the next research section a little more breathing room. */
+.academic-content section[aria-labelledby="work-in-progress"] {
+  margin-top:24px;
+}
