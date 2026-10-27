@@ -646,3 +646,8 @@ html {
 .academic-content section[aria-labelledby="work-in-progress"] {
   margin-top:24px;
 }
+
+/* Let the full title and coauthors use the open space on the right. */
+#scale-and-substitution {
+  margin-right:min(0px, calc((884px - 100vw) / 2));
+}
