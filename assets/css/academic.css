@@ -286,7 +286,7 @@ html {
 }
 
 .paper-title .paper-coauthors {
-  color: inherit;
+  color: var(--academic-award);
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-size: 0.8em;
 }
